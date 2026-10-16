@@ -1,0 +1,368 @@
+# Hand-curated seed for the dm-community graph.
+#
+# Each [[person]] becomes a note in People/. Everything else (career, experiments,
+# institutions, coauthors, papers) is pulled from INSPIRE-HEP by scripts/fetch.py
+# and written by scripts/build.py.
+#
+# inspire: list of INSPIRE author record IDs belonging to this person. People often
+#   have several (duplicate stubs), so all listed records are merged.
+#   filter = "all"   -> trust every paper on that record
+#   filter = "group" -> record is shared with other people of the same name; keep only
+#                       papers coauthored with someone else in this seed file
+#   filter = "berkeley" -> like "group", and the person must also be listed with a
+#                       UC Berkeley affiliation on that paper
+# group / group_role: membership in a research group defined under [[group]].
+# destination: where they went after the group, with a source.
+# positions: manual career entries that override INSPIRE (use when INSPIRE is stale).
+
+# Collaboration names on papers that are working groups or reviews, not experiments.
+ignore_collaborations = ["Working Group", "Study Group", "Design Group", "Particle Data Group",
+  "Organization", "Aachen-Bonn-CERN-London-Oxford-Saclay"]
+
+[[group]]
+key = "vanbibber"
+name = "Van Bibber Group"
+long_name = "Berkeley Axion Works (van Bibber group)"
+pi = "karl-van-bibber"
+institution = 903299
+url = "https://axions.berkeley.edu"
+description = "Axion dark matter group in the Department of Nuclear Engineering at UC Berkeley, led by Karl van Bibber. Designs and builds microwave cavities and resonators for haloscope searches (HAYSTAC, ALPHA, DMRadio), mines Green Bank Telescope data, and develops gamma-ray instrumentation (GALAXIS)."
+# Group members with no INSPIRE publications, listed by name only (public roster on the group website).
+roster_only = [
+  { name = "Ishaan Iyer", role = "Undergraduate (Physics)", status = "current" },
+  { name = "Dylan Miller", role = "Undergraduate (Nuclear)", status = "current" },
+  { name = "Ryan Heunu Yang", role = "Undergraduate (Nuclear)", status = "current" },
+  { name = "Zachary Kronlage", role = "Undergraduate (Physics)", status = "current" },
+  { name = "Josephine Hilliard", role = "Undergraduate (Astrophysics)", status = "current" },
+  { name = "Avery Eylssa Joshua-Tor", role = "Undergraduate (Nuclear)", status = "current" },
+  { name = "Thomas Zhu", role = "Undergraduate", status = "current" },
+  { name = "Tory Johansson", role = "Summer student (Oberlin College)", status = "alumni" },
+  { name = "Bibi Hanselman", role = "Summer student (Amherst College)", status = "alumni" },
+  { name = "Gavin Ockert", role = "Summer student (Duke University)", status = "alumni" },
+  { name = "Daksh Rana", role = "Undergraduate (Nuclear)", status = "alumni" },
+  { name = "Sahej Sethi", role = "Undergraduate (Nuclear)", status = "alumni" },
+  { name = "Andrei Dones", role = "Undergraduate", status = "alumni" },
+  { name = "Pablo Castaño", role = "Undergraduate", status = "alumni" },
+  { name = "Melody Li", role = "Undergraduate", status = "alumni" },
+  { name = "Roger Yu", role = "Undergraduate", status = "alumni" },
+  { name = "Clara Hung", role = "Undergraduate", status = "alumni" },
+  { name = "Alexey Krivega", role = "Undergraduate", status = "alumni" },
+  { name = "Bill Ostapchuk", role = "Undergraduate (Nuclear)", status = "alumni" },
+]
+
+# Experiments that are not (yet) in INSPIRE.
+[[experiment]]
+key = "GALAXIS"
+long_name = "GALAXIS: prototype gamma-ray calorimeter for CubeSats"
+url = "https://axions.berkeley.edu"
+description = "Prototype calorimeter for CubeSats, part of the 'Neutron Stars as Axion Laboratories' project (Berkeley Physics, Nuclear Engineering and Space Sciences Laboratory)."
+
+# ---------------------------------------------------------------- faculty
+
+[[person]]
+key = "karl-van-bibber"
+name = "Karl van Bibber"
+inspire = [{ id = 1016409, filter = "all" }]
+group = "vanbibber"
+group_role = "PI"
+status = "current"
+manual_experiments = ["GALAXIS"]
+positions_source = "https://nuc.berkeley.edu/people/karl-van-bibber/"
+positions = [
+  { inst = 903299, title = "Professor of Nuclear Engineering (Chair 2012–2017, 2022–2023)", start = "2012" },
+  { inst = 911528, title = "Faculty Affiliate, Nuclear Science Division", start = "2012" },
+  { inst = 903053, title = "Vice President & Dean of Research", start = "2009", end = "2012" },
+  { inst = 902965, title = "Senior Physicist; Group Leader; Chief Scientist; Deputy Director", start = "1985", end = "2010" },
+  { inst = 903222, title = "Assistant Professor of Physics", start = "1980", end = "1985" },
+  { inst = 902953, title = "Postdoctoral Researcher", start = "1977", end = "1979" },
+  { inst = 907455, title = "Instructor, Department of Physics", start = "1976", end = "1977" },
+  { inst = 907455, title = "PhD, Physics", start = "1972", end = "1976" },
+  { inst = 907455, title = "BS, Physics and Mathematics", start = "1968", end = "1972" },
+]
+
+# ---------------------------------------------------------------- current members
+
+[[person]]
+key = "shriram-sadashivajois"
+name = "Shriram Sadashivajois"
+inspire = [{ id = 1776877, filter = "all" }]
+group = "vanbibber"
+group_role = "Postdoc"
+status = "current"
+
+[[person]]
+key = "jonathan-echevers"
+name = "Jonathan Echevers"
+inspire = [{ id = 1873227, filter = "all" }]
+group = "vanbibber"
+group_role = "Postdoc"
+status = "current"
+
+[[person]]
+key = "sharada-sahoo"
+name = "Sharada Sahoo"
+inspire = [{ id = 3148376, filter = "all" }, { id = 2461096, filter = "berkeley" }]
+group = "vanbibber"
+group_role = "Postdoc"
+status = "current"
+
+[[person]]
+key = "michael-sekatchev"
+name = "Michael Sekatchev"
+inspire = [{ id = 2800073, filter = "all" }]
+group = "vanbibber"
+group_role = "Graduate student"
+status = "current"
+manual_experiments = ["GALAXIS"]
+
+# ---------------------------------------------------------------- PhD alumni (theses supervised by van Bibber, per INSPIRE)
+
+[[person]]
+key = "lucas-brouwer"
+name = "Lucas Brouwer"
+inspire = [{ id = 1653925, filter = "all" }]
+group = "vanbibber"
+group_role = "PhD student"
+status = "alumni"
+
+[[person]]
+key = "patricia-schuster"
+name = "Patricia Schuster"
+inspire = [{ id = 1861076, filter = "all" }, { id = 3145441, filter = "all" }, { id = 3145442, filter = "all" }]
+group = "vanbibber"
+group_role = "PhD student"
+status = "alumni"
+
+[[person]]
+key = "albert-yuen"
+name = "Albert Yuen"
+inspire = [{ id = 2426038, filter = "all" }]
+group = "vanbibber"
+group_role = "PhD student"
+status = "alumni"
+
+[[person]]
+key = "samantha-lewis"
+name = "Samantha Lewis"
+inspire = [{ id = 1709757, filter = "all" }]
+group = "vanbibber"
+group_role = "PhD student"
+status = "alumni"
+destination = { text = "Assistant Professor of Physics, Wellesley College (from July 2023)", source = "https://axions.berkeley.edu" }
+
+[[person]]
+key = "maria-simanovskaia"
+name = "Maria Simanovskaia"
+inspire = [{ id = 2014560, filter = "all" }]
+group = "vanbibber"
+group_role = "PhD student"
+status = "alumni"
+destination = { text = "Stanford", source = "https://axions.berkeley.edu" }
+
+[[person]]
+key = "saad-al-kenany"
+name = "Saad Al Kenany"
+inspire = [{ id = 1906034, filter = "all" }, { id = 2058924, filter = "all" }, { id = 2596045, filter = "all" }]
+group = "vanbibber"
+group_role = "PhD student"
+status = "alumni"
+
+[[person]]
+key = "alex-droster"
+name = "Alex Droster"
+inspire = [{ id = 2056868, filter = "all" }, { id = 2567606, filter = "all" }]
+group = "vanbibber"
+group_role = "PhD student"
+status = "alumni"
+destination = { text = "KIPAC Fellow, SLAC / Stanford", source = "https://axions.berkeley.edu" }
+
+[[person]]
+key = "aya-keller"
+name = "Aya Keller"
+inspire = [{ id = 2037609, filter = "all" }, { id = 1985903, filter = "all" }]
+group = "vanbibber"
+group_role = "PhD student"
+status = "alumni"
+supervisor_override = ["karl-van-bibber"]
+destination = { text = "Karl van Bibber Postdoctoral Fellow, Stanford (Kent Irwin group)", source = "https://axions.berkeley.edu" }
+
+[[person]]
+key = "heather-jackson"
+name = "Heather Jackson"
+inspire = [{ id = 2854054, filter = "all" }, { id = 1004651, filter = "berkeley" }]
+group = "vanbibber"
+group_role = "PhD student"
+status = "alumni"
+supervisor_override = ["karl-van-bibber"]
+destination = { text = "Industry", source = "https://axions.berkeley.edu" }
+
+# ---------------------------------------------------------------- postdoc alumni
+
+[[person]]
+key = "alexander-leder"
+name = "Alexander Leder"
+inspire = [{ id = 1292432, filter = "all" }]
+group = "vanbibber"
+group_role = "Postdoc"
+status = "alumni"
+destination = { text = "Staff scientist, Los Alamos National Laboratory (LEGEND)", source = "https://axions.berkeley.edu" }
+
+[[person]]
+key = "dajie-sun"
+name = "Dajie Sun"
+inspire = [{ id = 1891164, filter = "berkeley" }]
+group = "vanbibber"
+group_role = "Group member"
+status = "alumni"
+destination = { text = "Assistant Professor of Nuclear Engineering, University of Idaho (from August 2026)", source = "https://axions.berkeley.edu" }
+
+[[person]]
+key = "christian-hagmann"
+name = "Christian Hagmann"
+inspire = [{ id = 1007015, filter = "all" }]
+group = "vanbibber"
+group_role = "Postdoc (LLNL era)"
+status = "alumni"
+
+# ---------------------------------------------------------------- other alumni with publications
+
+[[person]]
+key = "nicholas-rapidis"
+name = "Nicholas Rapidis"
+inspire = [{ id = 1633518, filter = "all" }]
+group = "vanbibber"
+group_role = "Undergraduate"
+status = "alumni"
+
+[[person]]
+key = "nolan-kowitt"
+name = "Nolan Kowitt"
+inspire = [{ id = 2159382, filter = "all" }, { id = 2854055, filter = "all" }]
+group = "vanbibber"
+group_role = "Undergraduate"
+status = "alumni"
+destination = { text = "MIT", source = "https://axions.berkeley.edu" }
+
+[[person]]
+key = "jaben-root"
+name = "Jaben Root"
+inspire = [{ id = 2014559, filter = "berkeley" }]
+group = "vanbibber"
+group_role = "Group member"
+status = "alumni"
+
+[[person]]
+key = "isabella-urdinaran"
+name = "Isabella Urdinaran"
+inspire = [{ id = 2014561, filter = "all" }]
+group = "vanbibber"
+group_role = "Group member"
+status = "alumni"
+
+[[person]]
+key = "mackenzie-wooten"
+name = "Mackenzie Wooten"
+inspire = [{ id = 2058923, filter = "all" }]
+group = "vanbibber"
+group_role = "Group member"
+status = "alumni"
+
+[[person]]
+key = "aarav-sindhwad"
+name = "Aarav Sindhwad"
+inspire = [{ id = 2815929, filter = "all" }]
+group = "vanbibber"
+group_role = "Group member"
+status = "alumni"
+destination = { text = "Yale", source = "https://axions.berkeley.edu" }
+
+[[person]]
+key = "dillon-goulart"
+name = "Dillon Goulart"
+inspire = [{ id = 2815928, filter = "all" }]
+group = "vanbibber"
+group_role = "Group member"
+status = "alumni"
+destination = { text = "UC Davis", source = "https://axions.berkeley.edu" }
+
+[[person]]
+key = "anna-dawes"
+name = "Anna Dawes"
+inspire = [{ id = 1990734, filter = "berkeley" }]
+group = "vanbibber"
+group_role = "Group member"
+status = "alumni"
+destination = { text = "Stanford", source = "https://axions.berkeley.edu" }
+
+[[person]]
+key = "mirelys-carcana-barbosa"
+name = "Mirelys Carcana Barbosa"
+inspire = [{ id = 2463075, filter = "berkeley" }]
+group = "vanbibber"
+group_role = "Group member"
+status = "alumni"
+destination = { text = "Brown", source = "https://axions.berkeley.edu" }
+
+[[person]]
+key = "sean-obrien"
+name = "Sean O'Brien"
+inspire = [{ id = 1985904, filter = "all" }, { id = 1927415, filter = "berkeley" }]
+group = "vanbibber"
+group_role = "Group member"
+status = "alumni"
+
+[[person]]
+key = "ronit-nath"
+name = "Ronit Nath"
+inspire = [{ id = 2828362, filter = "all" }]
+group = "vanbibber"
+group_role = "Group member"
+status = "alumni"
+destination = { text = "Start-up", source = "https://axions.berkeley.edu" }
+
+# Experiment / collaboration names that should be merged into one note.
+[experiment_aliases]
+"DMRadio-50L" = "DMRadio"
+"DMRadio-m3" = "DMRadio"
+"DM Radio" = "DMRadio"
+"Green Bank Telescope Dark Matter Team" = "GBT Dark Matter"
+"SuperCDMS-Lite" = "SuperCDMS"
+"SuperCDMS-Soudan" = "SuperCDMS"
+"SuperCDMS-SNOLAB" = "SuperCDMS"
+"SLAC-PEP2-BABAR" = "BaBar"
+"BaBar" = "BaBar"
+"BABAR" = "BaBar"
+"KEK-BF-BELLE" = "Belle"
+"ADMX-HF" = "HAYSTAC"
+"E140X" = "SLAC-E-140X"
+"E143" = "SLAC-E-143"
+"E140" = "SLAC-E-140"
+"EXO" = "EXO-200"
+"Belle" = "Belle"
+
+[[experiment]]
+key = "DMRadio"
+long_name = "DMRadio: lumped-element search for low-mass axions"
+url = "https://dmradio.stanford.edu"
+description = "Program of lumped-element (LC resonator) searches for axion and hidden-photon dark matter below about 1 µeV, run by a Stanford, SLAC, Berkeley, MIT, UNC and Princeton collaboration. Stages include DMRadio-50L and DMRadio-m³."
+
+[[experiment]]
+key = "GBT Dark Matter"
+long_name = "Green Bank Telescope dark matter searches"
+url = "https://axions.berkeley.edu"
+description = "Searches for radio signals from axion dark matter (e.g. axion–photon conversion near neutron stars) in archival Green Bank Telescope data."
+
+# Display names for institutions (INSPIRE top-level record id -> name). Anything not
+# listed falls back to INSPIRE's short name.
+[institution_names]
+903299 = "UC Berkeley"
+1189913 = "UC Berkeley"
+907455 = "MIT"
+911820 = "Stanford University"
+903222 = "Stanford University"
+902965 = "Lawrence Livermore National Laboratory"
+1189711 = "Lawrence Berkeley National Laboratory"
+902953 = "Lawrence Berkeley National Laboratory"
+903053 = "Naval Postgraduate School"
+1189882 = "UCLA"
+1269381 = "Texas A&M University"

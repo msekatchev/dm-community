@@ -1,0 +1,5 @@
+data/raw/
+.DS_Store
+.obsidian/workspace*.json
+.trash/
+__pycache__/
