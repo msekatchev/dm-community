@@ -3,8 +3,10 @@ type: "person"
 title: "Alexander Leder"
 inspire:
   - "https://inspirehep.net/authors/1292432"
-group: "Van Bibber Group"
-group_role: "Postdoc"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "Postdoc"
 status: "alumni"
 tags:
   - "person"
@@ -64,9 +66,11 @@ tags:
 - [[Heather Jackson]] (7)
 - [[Samantha Lewis]] (7)
 - [[Aya Keller]] (5)
+- [[Chiara Salemi]] (5)
 - [[Jonathan Echevers]] (3)
 - [[Lucas Brouwer]] (3)
 - [[Mackenzie Wooten]] (3)
+- [[Erin Engelhardt]] (2)
 - [[Shriram Sadashivajois]] (2)
 - [[Isabella Urdinaran]] (2)
 - [[Sean O'Brien]] (2)

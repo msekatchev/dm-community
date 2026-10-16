@@ -4,8 +4,10 @@ title: "Heather Jackson"
 inspire:
   - "https://inspirehep.net/authors/2854054"
   - "https://inspirehep.net/authors/1004651"
-group: "Van Bibber Group"
-group_role: "PhD student"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "PhD student"
 status: "alumni"
 tags:
   - "person"
@@ -48,6 +50,7 @@ tags:
 - [[Aarav Sindhwad]] (2)
 - [[Nolan Kowitt]] (2)
 - [[Dajie Sun]] (2)
+- [[Chiara Salemi]] (2)
 - [[Isabella Urdinaran]] (2)
 - [[Anna Dawes]] (1)
 - [[Sharada Sahoo]] (1)

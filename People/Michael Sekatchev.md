@@ -3,8 +3,10 @@ type: "person"
 title: "Michael Sekatchev"
 inspire:
   - "https://inspirehep.net/authors/2800073"
-group: "Van Bibber Group"
-group_role: "Graduate student"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "Graduate student"
 status: "current"
 tags:
   - "person"

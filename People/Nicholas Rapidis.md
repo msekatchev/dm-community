@@ -3,8 +3,10 @@ type: "person"
 title: "Nicholas Rapidis"
 inspire:
   - "https://inspirehep.net/authors/1633518"
-group: "Van Bibber Group"
-group_role: "Undergraduate"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "Undergraduate"
 status: "alumni"
 tags:
   - "person"
@@ -48,12 +50,16 @@ tags:
 - [[Alexander Leder]] (11)
 - [[Samantha Lewis]] (11)
 - [[Aya Keller]] (8)
+- [[Chiara Salemi]] (8)
 - [[Jonathan Echevers]] (6)
 - [[Heather Jackson]] (6)
 - [[Saad Al Kenany]] (5)
 - [[Isabella Urdinaran]] (5)
 - [[Lucas Brouwer]] (4)
 - [[Jaben Root]] (4)
+- [[Erin Engelhardt]] (2)
+- [[Shreya Puranam]] (2)
+- [[Penelope Quassolo]] (2)
 - [[Mackenzie Wooten]] (2)
 - [[Sean O'Brien]] (2)
 - [[Shriram Sadashivajois]] (1)

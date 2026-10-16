@@ -3,8 +3,10 @@ type: "person"
 title: "Karl van Bibber"
 inspire:
   - "https://inspirehep.net/authors/1016409"
-group: "Van Bibber Group"
-group_role: "PI"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "PI"
 status: "current"
 tags:
   - "person"
@@ -83,6 +85,7 @@ tags:
 - [[Alexander Leder]] (12)
 - [[Aya Keller]] (9)
 - [[Jonathan Echevers]] (7)
+- [[Chiara Salemi]] (7)
 - [[Isabella Urdinaran]] (7)
 - [[Saad Al Kenany]] (6)
 - [[Mackenzie Wooten]] (5)
@@ -92,6 +95,9 @@ tags:
 - [[Lucas Brouwer]] (4)
 - [[Aarav Sindhwad]] (3)
 - [[Nolan Kowitt]] (3)
+- [[Erin Engelhardt]] (2)
+- [[Shreya Puranam]] (2)
+- [[Penelope Quassolo]] (2)
 - [[Sean O'Brien]] (2)
 - [[Sharada Sahoo]] (1)
 - [[Michael Sekatchev]] (1)

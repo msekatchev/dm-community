@@ -19,6 +19,7 @@ Program of lumped-element (LC resonator) searches for axion and hidden-photon da
 - [[Alex Droster]] (3 papers)
 - [[Alexander Leder]] (3 papers, listed member)
 - [[Aya Keller]] (3 papers)
+- [[Chiara Salemi]] (3 papers)
 - [[Karl van Bibber]] (3 papers)
 - [[Lucas Brouwer]] (3 papers)
 - [[Maria Simanovskaia]] (3 papers)

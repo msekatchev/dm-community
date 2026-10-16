@@ -3,8 +3,10 @@ type: "person"
 title: "Mackenzie Wooten"
 inspire:
   - "https://inspirehep.net/authors/2058923"
-group: "Van Bibber Group"
-group_role: "Group member"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "Group member"
 status: "alumni"
 tags:
   - "person"
@@ -31,6 +33,7 @@ tags:
 - [[Alexander Leder]] (3)
 - [[Nolan Kowitt]] (2)
 - [[Nicholas Rapidis]] (2)
+- [[Chiara Salemi]] (2)
 - [[Maria Simanovskaia]] (2)
 - [[Jonathan Echevers]] (1)
 - [[Shriram Sadashivajois]] (1)

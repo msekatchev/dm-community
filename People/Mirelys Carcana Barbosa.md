@@ -3,8 +3,10 @@ type: "person"
 title: "Mirelys Carcana Barbosa"
 inspire:
   - "https://inspirehep.net/authors/2463075"
-group: "Van Bibber Group"
-group_role: "Group member"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "Group member"
 status: "alumni"
 tags:
   - "person"

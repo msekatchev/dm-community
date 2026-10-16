@@ -51,6 +51,25 @@ roster_only = [
   { name = "Bill Ostapchuk", role = "Undergraduate (Nuclear)", status = "alumni" },
 ]
 
+[[group]]
+key = "salemi"
+name = "Salemi Group"
+long_name = "Salemi group (Berkeley Physics and LBNL)"
+pi = "chiara-salemi"
+institution = 903299
+url = "https://physics.berkeley.edu/research-faculty/salemi-group"
+description = "Axion dark matter group in the Department of Physics at UC Berkeley and the LBNL Physics Division, led by Chiara Salemi (since January 2025). Builds superconducting quantum sensors and lumped-element axion searches (DMRadio, ABRACADABRA), works on BREAD, and develops SQUAT sensors. Part of the Berkeley Axion Works, working closely with the van Bibber group and LBNL's superconducting magnet group."
+roster_only = [
+  { name = "Emily Perry", role = "Postdoc", status = "current" },
+  { name = "Celeste Virador", role = "Graduate student", status = "current" },
+  { name = "Drew Gibson", role = "Graduate student", status = "current" },
+  { name = "Holden Kowitt", role = "Undergraduate", status = "current" },
+  { name = "Rayana Yasin", role = "Undergraduate", status = "current" },
+  { name = "Brennan Coffey", role = "Undergraduate", status = "current" },
+  { name = "Tabitha Esposito", role = "Undergraduate", status = "current" },
+  { name = "Anish Gupta", role = "Post-bacc", status = "current" },
+]
+
 # Experiments that are not (yet) in INSPIRE.
 [[experiment]]
 key = "GALAXIS"
@@ -277,6 +296,7 @@ group = "vanbibber"
 group_role = "Group member"
 status = "alumni"
 destination = { text = "Yale", source = "https://axions.berkeley.edu" }
+extra_groups = [{ group = "salemi", role = "Post-bacc", status = "current" }]
 
 [[person]]
 key = "dillon-goulart"
@@ -323,11 +343,84 @@ status = "alumni"
 destination = { text = "Start-up", source = "https://axions.berkeley.edu" }
 left_field = true
 
+# ================================================================ Salemi group
+# Roster: https://physics.berkeley.edu/research-faculty/salemi-group/people (retrieved 2026-10-16)
+
+[[person]]
+key = "chiara-salemi"
+name = "Chiara Salemi"
+inspire = [{ id = 1906552, filter = "all" }]
+group = "salemi"
+group_role = "PI"
+status = "current"
+manual_experiments = ["SQUAT"]
+positions_source = "https://physics.berkeley.edu/sites/default/files/cpscv.pdf"
+positions = [
+  { inst = 903299, title = "Assistant Professor of Physics", start = "2025" },
+  { inst = 902953, title = "Faculty Scientist, Physics Division", start = "2025" },
+  { inst = 911820, title = "Porat Postdoctoral Fellow, KIPAC (Stanford / SLAC)", start = "2022", end = "2024" },
+  { inst = 907455, title = "PhD, Physics (Winslow group, LNS)", start = "2017", end = "2022" },
+  { inst = 1256694, title = "BS, Physics and Mathematics (Henning group)", start = "2013", end = "2017" },
+]
+
+[[person]]
+key = "ryan-gibbons"
+name = "Ryan Gibbons"
+inspire = [{ id = 1876338, filter = "all" }]
+group = "salemi"
+group_role = "Postdoc"
+status = "current"
+
+[[person]]
+key = "erin-engelhardt"
+name = "Erin Engelhardt"
+inspire = [{ id = 2897704, filter = "all" }, { id = 2970781, filter = "all" }]
+group = "salemi"
+group_role = "Postdoc"
+status = "current"
+
+[[person]]
+key = "shreya-puranam"
+name = "Shreya Puranam"
+inspire = [{ id = 2897088, filter = "all" }]
+group = "salemi"
+group_role = "Graduate student"
+status = "current"
+
+[[person]]
+key = "penelope-quassolo"
+name = "Penelope Quassolo"
+inspire = [{ id = 2732115, filter = "all" }]
+group = "salemi"
+group_role = "Graduate student"
+status = "current"
+
+[[person]]
+key = "alain-fauquex"
+name = "Alain Fauquex"
+inspire = [{ id = 3127258, filter = "all" }]
+group = "salemi"
+group_role = "Graduate student"
+status = "current"
+
+[[person]]
+key = "tonya-peshel"
+name = "Tonya Peshel"
+inspire = [{ id = 3161123, filter = "all" }, { id = 3183470, filter = "all" }]
+group = "salemi"
+group_role = "Undergraduate"
+status = "alumni"
+destination = { text = "SLAC post-bacc (2025)", source = "https://physics.berkeley.edu/research-faculty/salemi-group/people" }
+
 # Experiment / collaboration names that should be merged into one note.
 [experiment_aliases]
 "DMRadio-50L" = "DMRadio"
 "DMRadio-m3" = "DMRadio"
 "DM Radio" = "DMRadio"
+"ABRA" = "ABRACADABRA"
+"LUX-ZEPLIN" = "LZ"
+"GigaBREAD" = "BREAD"
+"ABRACADABRA-10 cm" = "ABRACADABRA"
 "Green Bank Telescope Dark Matter Team" = "GBT Dark Matter"
 "SuperCDMS-Lite" = "SuperCDMS"
 "SuperCDMS-Soudan" = "SuperCDMS"
@@ -342,6 +435,12 @@ left_field = true
 "E140" = "SLAC-E-140"
 "EXO" = "EXO-200"
 "Belle" = "Belle"
+
+[[experiment]]
+key = "SQUAT"
+long_name = "SQUAT: superconducting quasiparticle-amplifying transmon sensors"
+url = "https://physics.berkeley.edu/research-faculty/salemi-group"
+description = "Superconducting qubit-based sensors for low-threshold particle and dark matter detection. Initial development by Chiara Salemi at Stanford/SLAC; continued in the Salemi group."
 
 [[experiment]]
 key = "DMRadio"
@@ -369,3 +468,4 @@ description = "Searches for radio signals from axion dark matter (e.g. axion–p
 903053 = "Naval Postgraduate School"
 1189882 = "UCLA"
 1269381 = "Texas A&M University"
+1256694 = "UNC Chapel Hill"

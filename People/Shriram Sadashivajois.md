@@ -3,8 +3,10 @@ type: "person"
 title: "Shriram Sadashivajois"
 inspire:
   - "https://inspirehep.net/authors/1776877"
-group: "Van Bibber Group"
-group_role: "Postdoc"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "Postdoc"
 status: "current"
 tags:
   - "person"

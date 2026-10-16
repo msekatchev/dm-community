@@ -16,6 +16,7 @@ The High Luminosity Large Hadron Collider (HL-LHC; formerly SLHC, Super Large Ha
 [INSPIRE](https://inspirehep.net/experiments/1613594) · [Website](http://hilumilhc.web.cern.ch/)
 
 ## People in this graph
+- [[Penelope Quassolo]] (3 papers)
 - [[Lucas Brouwer]] (2 papers)
 <!-- generated:end -->
 ## Notes

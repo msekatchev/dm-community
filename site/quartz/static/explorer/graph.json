@@ -10,6 +10,16 @@
    "file": "People/Karl van Bibber.md",
    "role": "PI",
    "status": "current",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "PI",
+     "status": "current"
+    }
+   ],
    "first": 1975,
    "last": 2026,
    "inField": true,
@@ -24,6 +34,16 @@
    "file": "People/Shriram Sadashivajois.md",
    "role": "Postdoc",
    "status": "current",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "Postdoc",
+     "status": "current"
+    }
+   ],
    "first": 2018,
    "last": 2026,
    "inField": true,
@@ -38,6 +58,16 @@
    "file": "People/Jonathan Echevers.md",
    "role": "Postdoc",
    "status": "current",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "Postdoc",
+     "status": "current"
+    }
+   ],
    "first": 2018,
    "last": 2026,
    "inField": true,
@@ -52,6 +82,16 @@
    "file": "People/Sharada Sahoo.md",
    "role": "Postdoc",
    "status": "current",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "Postdoc",
+     "status": "current"
+    }
+   ],
    "first": 2025,
    "last": 2026,
    "inField": true,
@@ -66,6 +106,16 @@
    "file": "People/Michael Sekatchev.md",
    "role": "PhD student",
    "status": "current",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "Graduate student",
+     "status": "current"
+    }
+   ],
    "first": 2024,
    "last": 2026,
    "inField": true,
@@ -80,6 +130,16 @@
    "file": "People/Lucas Brouwer.md",
    "role": "PhD student",
    "status": "alumni",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "PhD student",
+     "status": "alumni"
+    }
+   ],
    "first": 2014,
    "last": 2026,
    "inField": true,
@@ -94,6 +154,16 @@
    "file": "People/Patricia Schuster.md",
    "role": "PhD student",
    "status": "alumni",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "PhD student",
+     "status": "alumni"
+    }
+   ],
    "first": 2015,
    "last": 2017,
    "inField": false,
@@ -108,6 +178,16 @@
    "file": "People/Albert Yuen.md",
    "role": "PhD student",
    "status": "alumni",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "PhD student",
+     "status": "alumni"
+    }
+   ],
    "first": 2015,
    "last": 2016,
    "inField": false,
@@ -122,6 +202,16 @@
    "file": "People/Samantha Lewis.md",
    "role": "PhD student",
    "status": "alumni",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "PhD student",
+     "status": "alumni"
+    }
+   ],
    "first": 2016,
    "last": 2026,
    "inField": true,
@@ -136,6 +226,16 @@
    "file": "People/Maria Simanovskaia.md",
    "role": "PhD student",
    "status": "alumni",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "PhD student",
+     "status": "alumni"
+    }
+   ],
    "first": 2013,
    "last": 2026,
    "inField": true,
@@ -150,6 +250,16 @@
    "file": "People/Saad Al Kenany.md",
    "role": "PhD student",
    "status": "alumni",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "PhD student",
+     "status": "alumni"
+    }
+   ],
    "first": 2012,
    "last": 2022,
    "inField": false,
@@ -164,6 +274,16 @@
    "file": "People/Alex Droster.md",
    "role": "PhD student",
    "status": "alumni",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "PhD student",
+     "status": "alumni"
+    }
+   ],
    "first": 2018,
    "last": 2026,
    "inField": true,
@@ -178,6 +298,16 @@
    "file": "People/Aya Keller.md",
    "role": "PhD student",
    "status": "alumni",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "PhD student",
+     "status": "alumni"
+    }
+   ],
    "first": 1977,
    "last": 2026,
    "inField": true,
@@ -192,6 +322,16 @@
    "file": "People/Heather Jackson.md",
    "role": "PhD student",
    "status": "alumni",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "PhD student",
+     "status": "alumni"
+    }
+   ],
    "first": 2020,
    "last": 2026,
    "inField": false,
@@ -206,6 +346,16 @@
    "file": "People/Alexander Leder.md",
    "role": "Postdoc",
    "status": "alumni",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "Postdoc",
+     "status": "alumni"
+    }
+   ],
    "first": 2010,
    "last": 2026,
    "inField": true,
@@ -220,6 +370,16 @@
    "file": "People/Dajie Sun.md",
    "role": "Other member",
    "status": "alumni",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "Group member",
+     "status": "alumni"
+    }
+   ],
    "first": 2022,
    "last": 2026,
    "inField": true,
@@ -234,6 +394,16 @@
    "file": "People/Christian Hagmann.md",
    "role": "Postdoc",
    "status": "alumni",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "Postdoc (LLNL era)",
+     "status": "alumni"
+    }
+   ],
    "first": 1988,
    "last": 2022,
    "inField": false,
@@ -248,6 +418,16 @@
    "file": "People/Nicholas Rapidis.md",
    "role": "Undergrad",
    "status": "alumni",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "Undergraduate",
+     "status": "alumni"
+    }
+   ],
    "first": 2016,
    "last": 2026,
    "inField": true,
@@ -262,6 +442,16 @@
    "file": "People/Nolan Kowitt.md",
    "role": "Undergrad",
    "status": "alumni",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "Undergraduate",
+     "status": "alumni"
+    }
+   ],
    "first": 2022,
    "last": 2026,
    "inField": true,
@@ -276,6 +466,16 @@
    "file": "People/Jaben Root.md",
    "role": "Other member",
    "status": "alumni",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "Group member",
+     "status": "alumni"
+    }
+   ],
    "first": 2014,
    "last": 2020,
    "inField": false,
@@ -290,6 +490,16 @@
    "file": "People/Isabella Urdinaran.md",
    "role": "Other member",
    "status": "alumni",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "Group member",
+     "status": "alumni"
+    }
+   ],
    "first": 2016,
    "last": 2024,
    "inField": true,
@@ -304,6 +514,16 @@
    "file": "People/Mackenzie Wooten.md",
    "role": "Other member",
    "status": "alumni",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "Group member",
+     "status": "alumni"
+    }
+   ],
    "first": 2022,
    "last": 2026,
    "inField": true,
@@ -316,8 +536,24 @@
    "type": "person",
    "label": "Aarav Sindhwad",
    "file": "People/Aarav Sindhwad.md",
-   "role": "Other member",
-   "status": "alumni",
+   "role": "Undergrad",
+   "status": "current",
+   "groups": [
+    "vanbibber",
+    "salemi"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "Group member",
+     "status": "alumni"
+    },
+    {
+     "group": "Salemi Group",
+     "role": "Post-bacc",
+     "status": "current"
+    }
+   ],
    "first": 2024,
    "last": 2026,
    "inField": true,
@@ -332,6 +568,16 @@
    "file": "People/Dillon Goulart.md",
    "role": "Other member",
    "status": "alumni",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "Group member",
+     "status": "alumni"
+    }
+   ],
    "first": 2024,
    "last": 2024,
    "inField": true,
@@ -346,6 +592,16 @@
    "file": "People/Anna Dawes.md",
    "role": "Other member",
    "status": "alumni",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "Group member",
+     "status": "alumni"
+    }
+   ],
    "first": 2024,
    "last": 2024,
    "inField": true,
@@ -360,6 +616,16 @@
    "file": "People/Mirelys Carcana Barbosa.md",
    "role": "Other member",
    "status": "alumni",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "Group member",
+     "status": "alumni"
+    }
+   ],
    "first": 2024,
    "last": 2024,
    "inField": true,
@@ -374,6 +640,16 @@
    "file": "People/Sean O'Brien.md",
    "role": "Other member",
    "status": "alumni",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "Group member",
+     "status": "alumni"
+    }
+   ],
    "first": 2021,
    "last": 2021,
    "inField": false,
@@ -388,12 +664,190 @@
    "file": "People/Ronit Nath.md",
    "role": "Other member",
    "status": "alumni",
+   "groups": [
+    "vanbibber"
+   ],
+   "memberships": [
+    {
+     "group": "Van Bibber Group",
+     "role": "Group member",
+     "status": "alumni"
+    }
+   ],
    "first": 2024,
    "last": 2024,
    "inField": false,
    "destination": "Start-up",
    "papers": 1,
    "inspire": "https://inspirehep.net/authors/2828362"
+  },
+  {
+   "id": "person:chiara-salemi",
+   "type": "person",
+   "label": "Chiara Salemi",
+   "file": "People/Chiara Salemi.md",
+   "role": "PI",
+   "status": "current",
+   "groups": [
+    "salemi"
+   ],
+   "memberships": [
+    {
+     "group": "Salemi Group",
+     "role": "PI",
+     "status": "current"
+    }
+   ],
+   "first": 2018,
+   "last": 2026,
+   "inField": true,
+   "destination": null,
+   "papers": 23,
+   "inspire": "https://inspirehep.net/authors/1906552"
+  },
+  {
+   "id": "person:ryan-gibbons",
+   "type": "person",
+   "label": "Ryan Gibbons",
+   "file": "People/Ryan Gibbons.md",
+   "role": "Postdoc",
+   "status": "current",
+   "groups": [
+    "salemi"
+   ],
+   "memberships": [
+    {
+     "group": "Salemi Group",
+     "role": "Postdoc",
+     "status": "current"
+    }
+   ],
+   "first": 2020,
+   "last": 2026,
+   "inField": true,
+   "destination": null,
+   "papers": 34,
+   "inspire": "https://inspirehep.net/authors/1876338"
+  },
+  {
+   "id": "person:erin-engelhardt",
+   "type": "person",
+   "label": "Erin Engelhardt",
+   "file": "People/Erin Engelhardt.md",
+   "role": "Postdoc",
+   "status": "current",
+   "groups": [
+    "salemi"
+   ],
+   "memberships": [
+    {
+     "group": "Salemi Group",
+     "role": "Postdoc",
+     "status": "current"
+    }
+   ],
+   "first": 2019,
+   "last": 2026,
+   "inField": true,
+   "destination": null,
+   "papers": 6,
+   "inspire": "https://inspirehep.net/authors/2897704"
+  },
+  {
+   "id": "person:shreya-puranam",
+   "type": "person",
+   "label": "Shreya Puranam",
+   "file": "People/Shreya Puranam.md",
+   "role": "PhD student",
+   "status": "current",
+   "groups": [
+    "salemi"
+   ],
+   "memberships": [
+    {
+     "group": "Salemi Group",
+     "role": "Graduate student",
+     "status": "current"
+    }
+   ],
+   "first": 2025,
+   "last": 2026,
+   "inField": true,
+   "destination": null,
+   "papers": 7,
+   "inspire": "https://inspirehep.net/authors/2897088"
+  },
+  {
+   "id": "person:penelope-quassolo",
+   "type": "person",
+   "label": "Penelope Quassolo",
+   "file": "People/Penelope Quassolo.md",
+   "role": "PhD student",
+   "status": "current",
+   "groups": [
+    "salemi"
+   ],
+   "memberships": [
+    {
+     "group": "Salemi Group",
+     "role": "Graduate student",
+     "status": "current"
+    }
+   ],
+   "first": 2023,
+   "last": 2026,
+   "inField": true,
+   "destination": null,
+   "papers": 8,
+   "inspire": "https://inspirehep.net/authors/2732115"
+  },
+  {
+   "id": "person:alain-fauquex",
+   "type": "person",
+   "label": "Alain Fauquex",
+   "file": "People/Alain Fauquex.md",
+   "role": "PhD student",
+   "status": "current",
+   "groups": [
+    "salemi"
+   ],
+   "memberships": [
+    {
+     "group": "Salemi Group",
+     "role": "Graduate student",
+     "status": "current"
+    }
+   ],
+   "first": 2026,
+   "last": 2026,
+   "inField": true,
+   "destination": null,
+   "papers": 1,
+   "inspire": "https://inspirehep.net/authors/3127258"
+  },
+  {
+   "id": "person:tonya-peshel",
+   "type": "person",
+   "label": "Tonya Peshel",
+   "file": "People/Tonya Peshel.md",
+   "role": "Undergrad",
+   "status": "alumni",
+   "groups": [
+    "salemi"
+   ],
+   "memberships": [
+    {
+     "group": "Salemi Group",
+     "role": "Undergraduate",
+     "status": "alumni"
+    }
+   ],
+   "first": 2026,
+   "last": 2026,
+   "inField": true,
+   "destination": "SLAC post-bacc (2025)",
+   "papers": 3,
+   "inspire": "https://inspirehep.net/authors/3161123"
   },
   {
    "id": "place:UC Berkeley",
@@ -451,8 +905,8 @@
    "label": "MIT",
    "file": "Places/MIT.md",
    "first": 1975,
-   "last": 2022,
-   "inField": false,
+   "last": 2025,
+   "inField": true,
    "location": "Cambridge, United States"
   },
   {
@@ -561,8 +1015,8 @@
    "label": "European Organization for Nuclear Research",
    "file": "Places/European Organization for Nuclear Research.md",
    "first": 2019,
-   "last": 2021,
-   "inField": false,
+   "last": 2026,
+   "inField": true,
    "location": "Prévessin, France"
   },
   {
@@ -734,6 +1188,86 @@
    "last": 2025,
    "inField": true,
    "location": "New Haven, United States"
+  },
+  {
+   "id": "place:UNC Chapel Hill",
+   "type": "place",
+   "label": "UNC Chapel Hill",
+   "file": "Places/UNC Chapel Hill.md",
+   "first": 2018,
+   "last": 2026,
+   "inField": true,
+   "location": "Chapel Hill, United States"
+  },
+  {
+   "id": "place:University of New Mexico",
+   "type": "place",
+   "label": "University of New Mexico",
+   "file": "Places/University of New Mexico.md",
+   "first": 2020,
+   "last": 2020,
+   "inField": false,
+   "location": "Albuquerque, United States"
+  },
+  {
+   "id": "place:Tennessee Technological University",
+   "type": "place",
+   "label": "Tennessee Technological University",
+   "file": "Places/Tennessee Technological University.md",
+   "first": 2013,
+   "last": 2017,
+   "inField": false,
+   "location": "Cookeville, United States"
+  },
+  {
+   "id": "place:Triangle Universities Nuclear Laboratory",
+   "type": "place",
+   "label": "Triangle Universities Nuclear Laboratory",
+   "file": "Places/Triangle Universities Nuclear Laboratory.md",
+   "first": 2025,
+   "last": 2026,
+   "inField": true,
+   "location": "Durham, United States"
+  },
+  {
+   "id": "place:Duke University",
+   "type": "place",
+   "label": "Duke University",
+   "file": "Places/Duke University.md",
+   "first": 2025,
+   "last": 2025,
+   "inField": true,
+   "location": "Durham, United States"
+  },
+  {
+   "id": "place:Università di Pavia",
+   "type": "place",
+   "label": "Università di Pavia",
+   "file": "Places/Università di Pavia.md",
+   "first": 2025,
+   "last": 2025,
+   "inField": true,
+   "location": "Pavia, Italy"
+  },
+  {
+   "id": "place:Universität Zürich",
+   "type": "place",
+   "label": "Universität Zürich",
+   "file": "Places/Universität Zürich.md",
+   "first": 2026,
+   "last": 2026,
+   "inField": true,
+   "location": "Zurich, Switzerland"
+  },
+  {
+   "id": "place:Eidgenössische Technische Hochschule",
+   "type": "place",
+   "label": "Eidgenössische Technische Hochschule",
+   "file": "Places/Eidgenössische Technische Hochschule.md",
+   "first": 2026,
+   "last": 2026,
+   "inField": true,
+   "location": "Zurich, Switzerland"
   },
   {
    "id": "project:ALPHA",
@@ -1030,9 +1564,9 @@
    "file": "Projects/CERN-HL-LHC.md",
    "longName": "High Luminosity LHC",
    "first": 2021,
-   "last": 2021,
+   "last": 2024,
    "completed": false,
-   "inField": false,
+   "inField": true,
    "darkMatter": false
   },
   {
@@ -1054,7 +1588,7 @@
    "file": "Projects/LARP.md",
    "longName": "US LHC Accelerator Research Program",
    "first": 2008,
-   "last": 2019,
+   "last": 2025,
    "completed": false,
    "inField": true,
    "darkMatter": false
@@ -1066,9 +1600,9 @@
    "file": "Projects/BREAD.md",
    "longName": "BREAD: Broadband Reflector Experiment for Axion Detection",
    "first": 2021,
-   "last": 2021,
+   "last": 2025,
    "completed": false,
-   "inField": false,
+   "inField": true,
    "darkMatter": true
   },
   {
@@ -1114,9 +1648,9 @@
    "file": "Projects/CUORE.md",
    "longName": "Cryogenic Underground Observatory for Rare Events",
    "first": 2016,
-   "last": 2021,
+   "last": 2025,
    "completed": false,
-   "inField": false,
+   "inField": true,
    "darkMatter": false
   },
   {
@@ -1126,9 +1660,9 @@
    "file": "Projects/CUPID.md",
    "longName": "CUPID: CUORE Upgrade with Particle IDentification",
    "first": 2019,
-   "last": 2020,
+   "last": 2025,
    "completed": false,
-   "inField": false,
+   "inField": true,
    "darkMatter": false
   },
   {
@@ -1216,6 +1750,78 @@
    "darkMatter": false
   },
   {
+   "id": "project:ABRACADABRA",
+   "type": "project",
+   "label": "ABRACADABRA",
+   "file": "Projects/ABRACADABRA.md",
+   "longName": "A Broadband/Resonant Approach to Cosmic Axion Detection with an Amplifying B-field Ring Apparatus.",
+   "first": 2018,
+   "last": 2019,
+   "completed": false,
+   "inField": false,
+   "darkMatter": true
+  },
+  {
+   "id": "project:SQUAT",
+   "type": "project",
+   "label": "SQUAT",
+   "file": "Projects/SQUAT.md",
+   "longName": "SQUAT: superconducting quasiparticle-amplifying transmon sensors",
+   "first": null,
+   "last": 2026,
+   "completed": false,
+   "inField": true,
+   "darkMatter": true
+  },
+  {
+   "id": "project:TESSERACT",
+   "type": "project",
+   "label": "TESSERACT",
+   "file": "Projects/TESSERACT.md",
+   "longName": "",
+   "first": 2026,
+   "last": 2026,
+   "completed": false,
+   "inField": true,
+   "darkMatter": true
+  },
+  {
+   "id": "project:LZ",
+   "type": "project",
+   "label": "LZ",
+   "file": "Projects/LZ.md",
+   "longName": "LUX-ZEPLIN",
+   "first": 2015,
+   "last": 2026,
+   "completed": false,
+   "inField": true,
+   "darkMatter": true
+  },
+  {
+   "id": "project:LUX",
+   "type": "project",
+   "label": "LUX",
+   "file": "Projects/LUX.md",
+   "longName": "The Large Underground Xenon Experiment",
+   "first": 2014,
+   "last": 2016,
+   "completed": true,
+   "inField": false,
+   "darkMatter": true
+  },
+  {
+   "id": "project:XLZD",
+   "type": "project",
+   "label": "XLZD",
+   "file": "Projects/XLZD.md",
+   "longName": "XLZD: Liquid Xenon Dark Matter detector",
+   "first": 2024,
+   "last": 2024,
+   "completed": false,
+   "inField": true,
+   "darkMatter": true
+  },
+  {
    "id": "group:vanbibber",
    "type": "group",
    "label": "Van Bibber Group",
@@ -1224,6 +1830,16 @@
    "last": 2026,
    "inField": true,
    "longName": "Berkeley Axion Works (van Bibber group)"
+  },
+  {
+   "id": "group:salemi",
+   "type": "group",
+   "label": "Salemi Group",
+   "file": "Groups/Salemi Group.md",
+   "first": null,
+   "last": 2026,
+   "inField": true,
+   "longName": "Salemi group (Berkeley Physics and LBNL)"
   }
  ],
  "links": [
@@ -1309,51 +1925,11 @@
   },
   {
    "source": "person:karl-van-bibber",
-   "target": "project:DMRadio",
-   "kind": "project",
-   "first": 2022,
-   "last": 2023,
-   "weight": 3
-  },
-  {
-   "source": "person:karl-van-bibber",
-   "target": "project:SLAC-NE-04",
-   "kind": "project",
-   "first": 1986,
-   "last": 1992,
-   "weight": 5
-  },
-  {
-   "source": "person:karl-van-bibber",
-   "target": "project:ALPHA",
-   "kind": "project",
-   "first": 2022,
-   "last": 2026,
-   "weight": 2
-  },
-  {
-   "source": "person:karl-van-bibber",
    "target": "project:BaBar",
    "kind": "project",
    "first": 1994,
    "last": 2014,
    "weight": 90
-  },
-  {
-   "source": "person:karl-van-bibber",
-   "target": "project:SLAC-E-140X",
-   "kind": "project",
-   "first": 1993,
-   "last": 1995,
-   "weight": 2
-  },
-  {
-   "source": "person:karl-van-bibber",
-   "target": "project:GEM",
-   "kind": "project",
-   "first": 1991,
-   "last": 1993,
-   "weight": 2
   },
   {
    "source": "person:karl-van-bibber",
@@ -1365,19 +1941,27 @@
   },
   {
    "source": "person:karl-van-bibber",
-   "target": "project:SLAC-E-146",
-   "kind": "project",
-   "first": 1992,
-   "last": 1992,
-   "weight": 1
-  },
-  {
-   "source": "person:karl-van-bibber",
    "target": "project:IAXO",
    "kind": "project",
    "first": 2012,
    "last": 2016,
    "weight": 7
+  },
+  {
+   "source": "person:karl-van-bibber",
+   "target": "project:WATCHMAN",
+   "kind": "project",
+   "first": 2015,
+   "last": 2015,
+   "weight": 1
+  },
+  {
+   "source": "person:karl-van-bibber",
+   "target": "project:ADMX",
+   "kind": "project",
+   "first": 1998,
+   "last": 2011,
+   "weight": 11
   },
   {
    "source": "person:karl-van-bibber",
@@ -1389,6 +1973,14 @@
   },
   {
    "source": "person:karl-van-bibber",
+   "target": "project:SLAC-NE-04",
+   "kind": "project",
+   "first": 1986,
+   "last": 1992,
+   "weight": 5
+  },
+  {
+   "source": "person:karl-van-bibber",
    "target": "project:HAYSTAC",
    "kind": "project",
    "first": 2018,
@@ -1397,10 +1989,10 @@
   },
   {
    "source": "person:karl-van-bibber",
-   "target": "project:PVLAS",
+   "target": "project:ALPHA",
    "kind": "project",
-   "first": 2008,
-   "last": 2008,
+   "first": 2022,
+   "last": 2026,
    "weight": 2
   },
   {
@@ -1413,43 +2005,11 @@
   },
   {
    "source": "person:karl-van-bibber",
-   "target": "project:WATCHMAN",
-   "kind": "project",
-   "first": 2015,
-   "last": 2015,
-   "weight": 1
-  },
-  {
-   "source": "person:karl-van-bibber",
-   "target": "project:SLAC-E-140",
-   "kind": "project",
-   "first": 1986,
-   "last": 1995,
-   "weight": 12
-  },
-  {
-   "source": "person:karl-van-bibber",
-   "target": "project:ADMX",
-   "kind": "project",
-   "first": 1998,
-   "last": 2011,
-   "weight": 11
-  },
-  {
-   "source": "person:karl-van-bibber",
    "target": "project:IsoDAR",
    "kind": "project",
    "first": 2015,
    "last": 2015,
    "weight": 1
-  },
-  {
-   "source": "person:karl-van-bibber",
-   "target": "project:SLAC-E-143",
-   "kind": "project",
-   "first": 1992,
-   "last": 1993,
-   "weight": 2
   },
   {
    "source": "person:karl-van-bibber",
@@ -1461,11 +2021,68 @@
   },
   {
    "source": "person:karl-van-bibber",
+   "target": "project:SLAC-E-140X",
+   "kind": "project",
+   "first": 1993,
+   "last": 1995,
+   "weight": 2
+  },
+  {
+   "source": "person:karl-van-bibber",
+   "target": "project:DMRadio",
+   "kind": "project",
+   "first": 2022,
+   "last": 2023,
+   "weight": 3
+  },
+  {
+   "source": "person:karl-van-bibber",
+   "target": "project:SLAC-E-143",
+   "kind": "project",
+   "first": 1992,
+   "last": 1993,
+   "weight": 2
+  },
+  {
+   "source": "person:karl-van-bibber",
+   "target": "project:SLAC-E-140",
+   "kind": "project",
+   "first": 1986,
+   "last": 1995,
+   "weight": 12
+  },
+  {
+   "source": "person:karl-van-bibber",
+   "target": "project:SLAC-E-146",
+   "kind": "project",
+   "first": 1992,
+   "last": 1992,
+   "weight": 1
+  },
+  {
+   "source": "person:karl-van-bibber",
+   "target": "project:PVLAS",
+   "kind": "project",
+   "first": 2008,
+   "last": 2008,
+   "weight": 2
+  },
+  {
+   "source": "person:karl-van-bibber",
+   "target": "project:GEM",
+   "kind": "project",
+   "first": 1991,
+   "last": 1993,
+   "weight": 2
+  },
+  {
+   "source": "person:karl-van-bibber",
    "target": "group:vanbibber",
    "kind": "member",
    "first": 1975,
    "last": 2026,
-   "weight": 1
+   "weight": 1,
+   "status": "current"
   },
   {
    "source": "person:karl-van-bibber",
@@ -1581,6 +2198,22 @@
   },
   {
    "source": "person:karl-van-bibber",
+   "target": "person:shreya-puranam",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:karl-van-bibber",
+   "target": "person:penelope-quassolo",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:karl-van-bibber",
    "target": "person:nicholas-rapidis",
    "kind": "coauthor",
    "first": null,
@@ -1669,22 +2302,6 @@
   },
   {
    "source": "person:shriram-sadashivajois",
-   "target": "project:ALPHA",
-   "kind": "project",
-   "first": 2026,
-   "last": 2026,
-   "weight": 1
-  },
-  {
-   "source": "person:shriram-sadashivajois",
-   "target": "project:DarkSide-20k",
-   "kind": "project",
-   "first": 2023,
-   "last": 2026,
-   "weight": 7
-  },
-  {
-   "source": "person:shriram-sadashivajois",
    "target": "project:ADMX",
    "kind": "project",
    "first": 2018,
@@ -1701,6 +2318,14 @@
   },
   {
    "source": "person:shriram-sadashivajois",
+   "target": "project:ALPHA",
+   "kind": "project",
+   "first": 2026,
+   "last": 2026,
+   "weight": 1
+  },
+  {
+   "source": "person:shriram-sadashivajois",
    "target": "project:Global Argon Dark Matter",
    "kind": "project",
    "first": 2022,
@@ -1709,11 +2334,20 @@
   },
   {
    "source": "person:shriram-sadashivajois",
+   "target": "project:DarkSide-20k",
+   "kind": "project",
+   "first": 2023,
+   "last": 2026,
+   "weight": 7
+  },
+  {
+   "source": "person:shriram-sadashivajois",
    "target": "group:vanbibber",
    "kind": "member",
    "first": 2018,
    "last": 2026,
-   "weight": 1
+   "weight": 1,
+   "status": "current"
   },
   {
    "source": "person:jonathan-echevers",
@@ -1741,10 +2375,26 @@
   },
   {
    "source": "person:jonathan-echevers",
-   "target": "project:DMRadio",
+   "target": "project:EXO-200",
    "kind": "project",
-   "first": 2023,
-   "last": 2023,
+   "first": 2019,
+   "last": 2026,
+   "weight": 9
+  },
+  {
+   "source": "person:jonathan-echevers",
+   "target": "project:HAYSTAC",
+   "kind": "project",
+   "first": 2024,
+   "last": 2025,
+   "weight": 2
+  },
+  {
+   "source": "person:jonathan-echevers",
+   "target": "project:ALPHA",
+   "kind": "project",
+   "first": 2026,
+   "last": 2026,
    "weight": 1
   },
   {
@@ -1757,27 +2407,11 @@
   },
   {
    "source": "person:jonathan-echevers",
-   "target": "project:ALPHA",
+   "target": "project:DMRadio",
    "kind": "project",
-   "first": 2026,
-   "last": 2026,
+   "first": 2023,
+   "last": 2023,
    "weight": 1
-  },
-  {
-   "source": "person:jonathan-echevers",
-   "target": "project:HAYSTAC",
-   "kind": "project",
-   "first": 2024,
-   "last": 2025,
-   "weight": 2
-  },
-  {
-   "source": "person:jonathan-echevers",
-   "target": "project:EXO-200",
-   "kind": "project",
-   "first": 2019,
-   "last": 2026,
-   "weight": 9
   },
   {
    "source": "person:jonathan-echevers",
@@ -1785,7 +2419,8 @@
    "kind": "member",
    "first": 2018,
    "last": 2026,
-   "weight": 1
+   "weight": 1,
+   "status": "current"
   },
   {
    "source": "person:jonathan-echevers",
@@ -1834,6 +2469,22 @@
    "first": null,
    "last": null,
    "weight": 1
+  },
+  {
+   "source": "person:jonathan-echevers",
+   "target": "person:shreya-puranam",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:jonathan-echevers",
+   "target": "person:penelope-quassolo",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
   },
   {
    "source": "person:jonathan-echevers",
@@ -1905,7 +2556,8 @@
    "kind": "member",
    "first": 2025,
    "last": 2026,
-   "weight": 1
+   "weight": 1,
+   "status": "current"
   },
   {
    "source": "person:sharada-sahoo",
@@ -1933,14 +2585,6 @@
   },
   {
    "source": "person:michael-sekatchev",
-   "target": "project:ALPHA",
-   "kind": "project",
-   "first": 2026,
-   "last": 2026,
-   "weight": 1
-  },
-  {
-   "source": "person:michael-sekatchev",
    "target": "project:GALAXIS",
    "kind": "project",
    "first": null,
@@ -1949,11 +2593,20 @@
   },
   {
    "source": "person:michael-sekatchev",
+   "target": "project:ALPHA",
+   "kind": "project",
+   "first": 2026,
+   "last": 2026,
+   "weight": 1
+  },
+  {
+   "source": "person:michael-sekatchev",
    "target": "group:vanbibber",
    "kind": "member",
    "first": 2024,
    "last": 2026,
-   "weight": 1
+   "weight": 1,
+   "status": "current"
   },
   {
    "source": "person:michael-sekatchev",
@@ -2005,11 +2658,11 @@
   },
   {
    "source": "person:lucas-brouwer",
-   "target": "project:DMRadio",
+   "target": "project:LARP",
    "kind": "project",
-   "first": 2022,
-   "last": 2023,
-   "weight": 3
+   "first": 2019,
+   "last": 2019,
+   "weight": 1
   },
   {
    "source": "person:lucas-brouwer",
@@ -2021,11 +2674,11 @@
   },
   {
    "source": "person:lucas-brouwer",
-   "target": "project:LARP",
+   "target": "project:DMRadio",
    "kind": "project",
-   "first": 2019,
-   "last": 2019,
-   "weight": 1
+   "first": 2022,
+   "last": 2023,
+   "weight": 3
   },
   {
    "source": "person:lucas-brouwer",
@@ -2033,7 +2686,8 @@
    "kind": "member",
    "first": 2014,
    "last": 2026,
-   "weight": 1
+   "weight": 1,
+   "status": "alumni"
   },
   {
    "source": "person:lucas-brouwer",
@@ -2057,7 +2711,8 @@
    "kind": "member",
    "first": 2015,
    "last": 2017,
-   "weight": 1
+   "weight": 1,
+   "status": "alumni"
   },
   {
    "source": "person:albert-yuen",
@@ -2081,7 +2736,8 @@
    "kind": "member",
    "first": 2015,
    "last": 2016,
-   "weight": 1
+   "weight": 1,
+   "status": "alumni"
   },
   {
    "source": "person:samantha-lewis",
@@ -2133,6 +2789,14 @@
   },
   {
    "source": "person:samantha-lewis",
+   "target": "project:BREAD",
+   "kind": "project",
+   "first": 2021,
+   "last": 2021,
+   "weight": 1
+  },
+  {
+   "source": "person:samantha-lewis",
    "target": "project:HAYSTAC",
    "kind": "project",
    "first": 2017,
@@ -2149,19 +2813,12 @@
   },
   {
    "source": "person:samantha-lewis",
-   "target": "project:BREAD",
-   "kind": "project",
-   "first": 2021,
-   "last": 2021,
-   "weight": 1
-  },
-  {
-   "source": "person:samantha-lewis",
    "target": "group:vanbibber",
    "kind": "member",
    "first": 2016,
    "last": 2026,
-   "weight": 1
+   "weight": 1,
+   "status": "alumni"
   },
   {
    "source": "person:samantha-lewis",
@@ -2213,14 +2870,6 @@
   },
   {
    "source": "person:maria-simanovskaia",
-   "target": "project:DMRadio",
-   "kind": "project",
-   "first": 2022,
-   "last": 2023,
-   "weight": 3
-  },
-  {
-   "source": "person:maria-simanovskaia",
    "target": "project:HAYSTAC",
    "kind": "project",
    "first": 2018,
@@ -2229,11 +2878,36 @@
   },
   {
    "source": "person:maria-simanovskaia",
+   "target": "project:DMRadio",
+   "kind": "project",
+   "first": 2022,
+   "last": 2023,
+   "weight": 3
+  },
+  {
+   "source": "person:maria-simanovskaia",
    "target": "group:vanbibber",
    "kind": "member",
    "first": 2013,
    "last": 2026,
-   "weight": 1
+   "weight": 1,
+   "status": "alumni"
+  },
+  {
+   "source": "person:maria-simanovskaia",
+   "target": "person:shreya-puranam",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:maria-simanovskaia",
+   "target": "person:penelope-quassolo",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
   },
   {
    "source": "person:maria-simanovskaia",
@@ -2313,7 +2987,8 @@
    "kind": "member",
    "first": 2012,
    "last": 2022,
-   "weight": 1
+   "weight": 1,
+   "status": "alumni"
   },
   {
    "source": "person:saad-al-kenany",
@@ -2357,14 +3032,6 @@
   },
   {
    "source": "person:alex-droster",
-   "target": "project:DMRadio",
-   "kind": "project",
-   "first": 2022,
-   "last": 2023,
-   "weight": 3
-  },
-  {
-   "source": "person:alex-droster",
    "target": "project:HAYSTAC",
    "kind": "project",
    "first": 2019,
@@ -2381,11 +3048,20 @@
   },
   {
    "source": "person:alex-droster",
+   "target": "project:DMRadio",
+   "kind": "project",
+   "first": 2022,
+   "last": 2023,
+   "weight": 3
+  },
+  {
+   "source": "person:alex-droster",
    "target": "group:vanbibber",
    "kind": "member",
    "first": 2018,
    "last": 2026,
-   "weight": 1
+   "weight": 1,
+   "status": "alumni"
   },
   {
    "source": "person:alex-droster",
@@ -2461,6 +3137,14 @@
   },
   {
    "source": "person:alex-droster",
+   "target": "person:erin-engelhardt",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:alex-droster",
    "target": "person:aya-keller",
    "kind": "coauthor",
    "first": null,
@@ -2469,11 +3153,35 @@
   },
   {
    "source": "person:alex-droster",
+   "target": "person:shreya-puranam",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:alex-droster",
+   "target": "person:penelope-quassolo",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:alex-droster",
    "target": "person:nicholas-rapidis",
    "kind": "coauthor",
    "first": null,
    "last": null,
    "weight": 12
+  },
+  {
+   "source": "person:alex-droster",
+   "target": "person:chiara-salemi",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 9
   },
   {
    "source": "person:alex-droster",
@@ -2633,7 +3341,8 @@
    "kind": "member",
    "first": 1977,
    "last": 2026,
-   "weight": 1
+   "weight": 1,
+   "status": "alumni"
   },
   {
    "source": "person:aya-keller",
@@ -2645,11 +3354,43 @@
   },
   {
    "source": "person:aya-keller",
+   "target": "person:erin-engelhardt",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:aya-keller",
+   "target": "person:shreya-puranam",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:aya-keller",
+   "target": "person:penelope-quassolo",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:aya-keller",
    "target": "person:nicholas-rapidis",
    "kind": "coauthor",
    "first": null,
    "last": null,
    "weight": 8
+  },
+  {
+   "source": "person:aya-keller",
+   "target": "person:chiara-salemi",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 6
   },
   {
    "source": "person:aya-keller",
@@ -2737,7 +3478,8 @@
    "kind": "member",
    "first": 2020,
    "last": 2026,
-   "weight": 1
+   "weight": 1,
+   "status": "alumni"
   },
   {
    "source": "person:heather-jackson",
@@ -2901,34 +3643,34 @@
   },
   {
    "source": "person:alexander-leder",
-   "target": "project:CDMS",
+   "target": "project:CUORE",
    "kind": "project",
-   "first": 2014,
-   "last": 2018,
-   "weight": 2
+   "first": 2016,
+   "last": 2021,
+   "weight": 28
   },
   {
    "source": "person:alexander-leder",
-   "target": "project:DMRadio",
+   "target": "project:Ricochet",
    "kind": "project",
-   "first": 2022,
-   "last": 2023,
-   "weight": 3
+   "first": null,
+   "last": null,
+   "weight": 0
   },
   {
    "source": "person:alexander-leder",
-   "target": "project:ALPHA",
+   "target": "project:GBT Dark Matter",
    "kind": "project",
-   "first": 2022,
-   "last": 2022,
-   "weight": 1
+   "first": null,
+   "last": null,
+   "weight": 0
   },
   {
    "source": "person:alexander-leder",
-   "target": "project:CUPID",
+   "target": "project:LEGEND",
    "kind": "project",
-   "first": 2019,
-   "last": 2020,
+   "first": 2025,
+   "last": 2026,
    "weight": 2
   },
   {
@@ -2941,30 +3683,6 @@
   },
   {
    "source": "person:alexander-leder",
-   "target": "project:CDMS-II",
-   "kind": "project",
-   "first": 2014,
-   "last": 2018,
-   "weight": 4
-  },
-  {
-   "source": "person:alexander-leder",
-   "target": "project:LEGEND",
-   "kind": "project",
-   "first": 2025,
-   "last": 2026,
-   "weight": 2
-  },
-  {
-   "source": "person:alexander-leder",
-   "target": "project:CUORE",
-   "kind": "project",
-   "first": 2016,
-   "last": 2021,
-   "weight": 28
-  },
-  {
-   "source": "person:alexander-leder",
    "target": "project:HAYSTAC",
    "kind": "project",
    "first": 2020,
@@ -2973,19 +3691,43 @@
   },
   {
    "source": "person:alexander-leder",
-   "target": "project:GBT Dark Matter",
+   "target": "project:ALPHA",
    "kind": "project",
-   "first": null,
-   "last": null,
-   "weight": 0
+   "first": 2022,
+   "last": 2022,
+   "weight": 1
   },
   {
    "source": "person:alexander-leder",
-   "target": "project:Ricochet",
+   "target": "project:CDMS",
    "kind": "project",
-   "first": null,
-   "last": null,
-   "weight": 0
+   "first": 2014,
+   "last": 2018,
+   "weight": 2
+  },
+  {
+   "source": "person:alexander-leder",
+   "target": "project:CDMS-II",
+   "kind": "project",
+   "first": 2014,
+   "last": 2018,
+   "weight": 4
+  },
+  {
+   "source": "person:alexander-leder",
+   "target": "project:CUPID",
+   "kind": "project",
+   "first": 2019,
+   "last": 2020,
+   "weight": 2
+  },
+  {
+   "source": "person:alexander-leder",
+   "target": "project:DMRadio",
+   "kind": "project",
+   "first": 2022,
+   "last": 2023,
+   "weight": 3
   },
   {
    "source": "person:alexander-leder",
@@ -2993,7 +3735,16 @@
    "kind": "member",
    "first": 2010,
    "last": 2026,
-   "weight": 1
+   "weight": 1,
+   "status": "alumni"
+  },
+  {
+   "source": "person:alexander-leder",
+   "target": "person:erin-engelhardt",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
   },
   {
    "source": "person:alexander-leder",
@@ -3101,6 +3852,14 @@
   },
   {
    "source": "person:alexander-leder",
+   "target": "person:chiara-salemi",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 5
+  },
+  {
+   "source": "person:alexander-leder",
    "target": "person:nolan-kowitt",
    "kind": "coauthor",
    "first": null,
@@ -3161,7 +3920,8 @@
    "kind": "member",
    "first": 2022,
    "last": 2026,
-   "weight": 1
+   "weight": 1,
+   "status": "alumni"
   },
   {
    "source": "person:dajie-sun",
@@ -3277,19 +4037,19 @@
   },
   {
    "source": "person:christian-hagmann",
-   "target": "project:XENON",
-   "kind": "project",
-   "first": 2005,
-   "last": 2005,
-   "weight": 1
-  },
-  {
-   "source": "person:christian-hagmann",
    "target": "project:NIFFTE",
    "kind": "project",
    "first": 2017,
    "last": 2021,
    "weight": 4
+  },
+  {
+   "source": "person:christian-hagmann",
+   "target": "project:XENON",
+   "kind": "project",
+   "first": 2005,
+   "last": 2005,
+   "weight": 1
   },
   {
    "source": "person:christian-hagmann",
@@ -3305,7 +4065,8 @@
    "kind": "member",
    "first": 1988,
    "last": 2022,
-   "weight": 1
+   "weight": 1,
+   "status": "alumni"
   },
   {
    "source": "person:christian-hagmann",
@@ -3349,14 +4110,6 @@
   },
   {
    "source": "person:nicholas-rapidis",
-   "target": "project:DMRadio",
-   "kind": "project",
-   "first": 2022,
-   "last": 2024,
-   "weight": 5
-  },
-  {
-   "source": "person:nicholas-rapidis",
    "target": "project:HAYSTAC",
    "kind": "project",
    "first": 2018,
@@ -3365,11 +4118,36 @@
   },
   {
    "source": "person:nicholas-rapidis",
+   "target": "project:DMRadio",
+   "kind": "project",
+   "first": 2022,
+   "last": 2024,
+   "weight": 5
+  },
+  {
+   "source": "person:nicholas-rapidis",
    "target": "group:vanbibber",
    "kind": "member",
    "first": 2016,
    "last": 2026,
-   "weight": 1
+   "weight": 1,
+   "status": "alumni"
+  },
+  {
+   "source": "person:nicholas-rapidis",
+   "target": "person:shreya-puranam",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:nicholas-rapidis",
+   "target": "person:penelope-quassolo",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
   },
   {
    "source": "person:nicholas-rapidis",
@@ -3433,7 +4211,8 @@
    "kind": "member",
    "first": 2022,
    "last": 2026,
-   "weight": 1
+   "weight": 1,
+   "status": "alumni"
   },
   {
    "source": "person:nolan-kowitt",
@@ -3473,7 +4252,8 @@
    "kind": "member",
    "first": 2014,
    "last": 2020,
-   "weight": 1
+   "weight": 1,
+   "status": "alumni"
   },
   {
    "source": "person:jaben-root",
@@ -3537,7 +4317,8 @@
    "kind": "member",
    "first": 2016,
    "last": 2024,
-   "weight": 1
+   "weight": 1,
+   "status": "alumni"
   },
   {
    "source": "person:isabella-urdinaran",
@@ -3625,7 +4406,8 @@
    "kind": "member",
    "first": 2022,
    "last": 2026,
-   "weight": 1
+   "weight": 1,
+   "status": "alumni"
   },
   {
    "source": "person:mackenzie-wooten",
@@ -3713,7 +4495,17 @@
    "kind": "member",
    "first": 2024,
    "last": 2026,
-   "weight": 1
+   "weight": 1,
+   "status": "alumni"
+  },
+  {
+   "source": "person:aarav-sindhwad",
+   "target": "group:salemi",
+   "kind": "member",
+   "first": 2024,
+   "last": 2026,
+   "weight": 1,
+   "status": "current"
   },
   {
    "source": "person:aarav-sindhwad",
@@ -3857,7 +4649,8 @@
    "kind": "member",
    "first": 2024,
    "last": 2024,
-   "weight": 1
+   "weight": 1,
+   "status": "alumni"
   },
   {
    "source": "person:dillon-goulart",
@@ -3913,7 +4706,8 @@
    "kind": "member",
    "first": 2024,
    "last": 2024,
-   "weight": 1
+   "weight": 1,
+   "status": "alumni"
   },
   {
    "source": "person:anna-dawes",
@@ -3969,7 +4763,8 @@
    "kind": "member",
    "first": 2024,
    "last": 2024,
-   "weight": 1
+   "weight": 1,
+   "status": "alumni"
   },
   {
    "source": "person:mirelys-carcana-barbosa",
@@ -4009,7 +4804,8 @@
    "kind": "member",
    "first": 2021,
    "last": 2021,
-   "weight": 1
+   "weight": 1,
+   "status": "alumni"
   },
   {
    "source": "person:ronit-nath",
@@ -4033,7 +4829,8 @@
    "kind": "member",
    "first": 2024,
    "last": 2024,
-   "weight": 1
+   "weight": 1,
+   "status": "alumni"
   },
   {
    "source": "person:ronit-nath",
@@ -4044,7 +4841,502 @@
    "weight": 1
   },
   {
+   "source": "person:chiara-salemi",
+   "target": "place:UC Berkeley",
+   "kind": "affiliation",
+   "first": 2026,
+   "last": 2026,
+   "weight": 4
+  },
+  {
+   "source": "person:chiara-salemi",
+   "target": "place:Lawrence Berkeley National Laboratory",
+   "kind": "affiliation",
+   "first": 2026,
+   "last": 2026,
+   "weight": 3
+  },
+  {
+   "source": "person:chiara-salemi",
+   "target": "place:SLAC National Accelerator Laboratory",
+   "kind": "affiliation",
+   "first": 2022,
+   "last": 2026,
+   "weight": 16
+  },
+  {
+   "source": "person:chiara-salemi",
+   "target": "place:MIT",
+   "kind": "affiliation",
+   "first": 2018,
+   "last": 2025,
+   "weight": 12
+  },
+  {
+   "source": "person:chiara-salemi",
+   "target": "place:Stanford University",
+   "kind": "affiliation",
+   "first": 2023,
+   "last": 2025,
+   "weight": 2
+  },
+  {
+   "source": "person:chiara-salemi",
+   "target": "place:UNC Chapel Hill",
+   "kind": "affiliation",
+   "first": 2018,
+   "last": 2018,
+   "weight": 1
+  },
+  {
+   "source": "person:chiara-salemi",
+   "target": "project:SQUAT",
+   "kind": "project",
+   "first": null,
+   "last": null,
+   "weight": 0
+  },
+  {
+   "source": "person:chiara-salemi",
+   "target": "project:BREAD",
+   "kind": "project",
+   "first": 2023,
+   "last": 2025,
+   "weight": 2
+  },
+  {
+   "source": "person:chiara-salemi",
+   "target": "project:ABRACADABRA",
+   "kind": "project",
+   "first": 2018,
+   "last": 2019,
+   "weight": 2
+  },
+  {
+   "source": "person:chiara-salemi",
+   "target": "project:DMRadio",
+   "kind": "project",
+   "first": 2022,
+   "last": 2023,
+   "weight": 3
+  },
+  {
+   "source": "person:chiara-salemi",
+   "target": "group:salemi",
+   "kind": "member",
+   "first": 2018,
+   "last": 2026,
+   "weight": 1,
+   "status": "current"
+  },
+  {
+   "source": "person:chiara-salemi",
+   "target": "person:jonathan-echevers",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 4
+  },
+  {
+   "source": "person:chiara-salemi",
+   "target": "person:erin-engelhardt",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:chiara-salemi",
+   "target": "person:shreya-puranam",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:chiara-salemi",
+   "target": "person:penelope-quassolo",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:chiara-salemi",
+   "target": "person:nicholas-rapidis",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 8
+  },
+  {
+   "source": "person:chiara-salemi",
+   "target": "person:maria-simanovskaia",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 8
+  },
+  {
+   "source": "person:chiara-salemi",
+   "target": "person:karl-van-bibber",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 7
+  },
+  {
+   "source": "person:chiara-salemi",
+   "target": "person:lucas-brouwer",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 4
+  },
+  {
+   "source": "person:chiara-salemi",
+   "target": "person:heather-jackson",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:chiara-salemi",
+   "target": "person:samantha-lewis",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:chiara-salemi",
+   "target": "person:mackenzie-wooten",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:ryan-gibbons",
+   "target": "place:Lawrence Berkeley National Laboratory",
+   "kind": "affiliation",
+   "first": 2022,
+   "last": 2026,
+   "weight": 32
+  },
+  {
+   "source": "person:ryan-gibbons",
+   "target": "place:UC Berkeley",
+   "kind": "affiliation",
+   "first": 2022,
+   "last": 2026,
+   "weight": 32
+  },
+  {
+   "source": "person:ryan-gibbons",
+   "target": "place:University of New Mexico",
+   "kind": "affiliation",
+   "first": 2020,
+   "last": 2020,
+   "weight": 1
+  },
+  {
+   "source": "person:ryan-gibbons",
+   "target": "project:TESSERACT",
+   "kind": "project",
+   "first": 2026,
+   "last": 2026,
+   "weight": 1
+  },
+  {
+   "source": "person:ryan-gibbons",
+   "target": "project:LZ",
+   "kind": "project",
+   "first": 2022,
+   "last": 2026,
+   "weight": 24
+  },
+  {
+   "source": "person:ryan-gibbons",
+   "target": "project:LUX",
+   "kind": "project",
+   "first": 2026,
+   "last": 2026,
+   "weight": 1
+  },
+  {
+   "source": "person:ryan-gibbons",
+   "target": "project:XLZD",
+   "kind": "project",
+   "first": 2024,
+   "last": 2024,
+   "weight": 2
+  },
+  {
+   "source": "person:ryan-gibbons",
+   "target": "group:salemi",
+   "kind": "member",
+   "first": 2020,
+   "last": 2026,
+   "weight": 1,
+   "status": "current"
+  },
+  {
+   "source": "person:erin-engelhardt",
+   "target": "place:UNC Chapel Hill",
+   "kind": "affiliation",
+   "first": 2025,
+   "last": 2026,
+   "weight": 3
+  },
+  {
+   "source": "person:erin-engelhardt",
+   "target": "place:Triangle Universities Nuclear Laboratory",
+   "kind": "affiliation",
+   "first": 2025,
+   "last": 2026,
+   "weight": 2
+  },
+  {
+   "source": "person:erin-engelhardt",
+   "target": "place:Lawrence Berkeley National Laboratory",
+   "kind": "affiliation",
+   "first": 2026,
+   "last": 2026,
+   "weight": 1
+  },
+  {
+   "source": "person:erin-engelhardt",
+   "target": "place:Duke University",
+   "kind": "affiliation",
+   "first": 2025,
+   "last": 2025,
+   "weight": 1
+  },
+  {
+   "source": "person:erin-engelhardt",
+   "target": "place:Tennessee Technological University",
+   "kind": "affiliation",
+   "first": 2013,
+   "last": 2017,
+   "weight": 1
+  },
+  {
+   "source": "person:erin-engelhardt",
+   "target": "project:LEGEND",
+   "kind": "project",
+   "first": 2025,
+   "last": 2026,
+   "weight": 2
+  },
+  {
+   "source": "person:erin-engelhardt",
+   "target": "group:salemi",
+   "kind": "member",
+   "first": 2019,
+   "last": 2026,
+   "weight": 1,
+   "status": "current"
+  },
+  {
+   "source": "person:erin-engelhardt",
+   "target": "person:jonathan-echevers",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:erin-engelhardt",
+   "target": "person:shreya-puranam",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:erin-engelhardt",
+   "target": "person:penelope-quassolo",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:erin-engelhardt",
+   "target": "person:nicholas-rapidis",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:erin-engelhardt",
+   "target": "person:maria-simanovskaia",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:erin-engelhardt",
+   "target": "person:karl-van-bibber",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:shreya-puranam",
+   "target": "place:UC Berkeley",
+   "kind": "affiliation",
+   "first": 2025,
+   "last": 2026,
+   "weight": 6
+  },
+  {
+   "source": "person:shreya-puranam",
+   "target": "place:Lawrence Berkeley National Laboratory",
+   "kind": "affiliation",
+   "first": 2026,
+   "last": 2026,
+   "weight": 1
+  },
+  {
+   "source": "person:shreya-puranam",
+   "target": "place:Università di Pavia",
+   "kind": "affiliation",
+   "first": 2025,
+   "last": 2025,
+   "weight": 1
+  },
+  {
+   "source": "person:shreya-puranam",
+   "target": "project:CUORE",
+   "kind": "project",
+   "first": 2025,
+   "last": 2025,
+   "weight": 1
+  },
+  {
+   "source": "person:shreya-puranam",
+   "target": "project:CUPID",
+   "kind": "project",
+   "first": 2025,
+   "last": 2025,
+   "weight": 4
+  },
+  {
+   "source": "person:shreya-puranam",
+   "target": "group:salemi",
+   "kind": "member",
+   "first": 2025,
+   "last": 2026,
+   "weight": 1,
+   "status": "current"
+  },
+  {
+   "source": "person:penelope-quassolo",
+   "target": "place:European Organization for Nuclear Research",
+   "kind": "affiliation",
+   "first": 2023,
+   "last": 2026,
+   "weight": 6
+  },
+  {
+   "source": "person:penelope-quassolo",
+   "target": "place:UC Berkeley",
+   "kind": "affiliation",
+   "first": 2026,
+   "last": 2026,
+   "weight": 1
+  },
+  {
+   "source": "person:penelope-quassolo",
+   "target": "place:Lawrence Berkeley National Laboratory",
+   "kind": "affiliation",
+   "first": 2026,
+   "last": 2026,
+   "weight": 1
+  },
+  {
+   "source": "person:penelope-quassolo",
+   "target": "project:LARP",
+   "kind": "project",
+   "first": 2025,
+   "last": 2025,
+   "weight": 1
+  },
+  {
+   "source": "person:penelope-quassolo",
+   "target": "project:CERN-HL-LHC",
+   "kind": "project",
+   "first": 2023,
+   "last": 2024,
+   "weight": 3
+  },
+  {
+   "source": "person:penelope-quassolo",
+   "target": "group:salemi",
+   "kind": "member",
+   "first": 2023,
+   "last": 2026,
+   "weight": 1,
+   "status": "current"
+  },
+  {
+   "source": "person:penelope-quassolo",
+   "target": "person:shreya-puranam",
+   "kind": "coauthor",
+   "first": null,
+   "last": null,
+   "weight": 2
+  },
+  {
+   "source": "person:alain-fauquex",
+   "target": "place:Universität Zürich",
+   "kind": "affiliation",
+   "first": 2026,
+   "last": 2026,
+   "weight": 1
+  },
+  {
+   "source": "person:alain-fauquex",
+   "target": "place:Eidgenössische Technische Hochschule",
+   "kind": "affiliation",
+   "first": 2026,
+   "last": 2026,
+   "weight": 1
+  },
+  {
+   "source": "person:alain-fauquex",
+   "target": "group:salemi",
+   "kind": "member",
+   "first": 2026,
+   "last": 2026,
+   "weight": 1,
+   "status": "current"
+  },
+  {
+   "source": "person:tonya-peshel",
+   "target": "group:salemi",
+   "kind": "member",
+   "first": 2026,
+   "last": 2026,
+   "weight": 1,
+   "status": "alumni"
+  },
+  {
    "source": "group:vanbibber",
+   "target": "place:UC Berkeley",
+   "kind": "based",
+   "first": null,
+   "last": 2026,
+   "weight": 1
+  },
+  {
+   "source": "group:salemi",
    "target": "place:UC Berkeley",
    "kind": "based",
    "first": null,

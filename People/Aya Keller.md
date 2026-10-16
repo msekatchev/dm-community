@@ -4,8 +4,10 @@ title: "Aya Keller"
 inspire:
   - "https://inspirehep.net/authors/2037609"
   - "https://inspirehep.net/authors/1985903"
-group: "Van Bibber Group"
-group_role: "PhD student"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "PhD student"
 status: "alumni"
 tags:
   - "person"
@@ -45,10 +47,14 @@ tags:
 - [[Karl van Bibber]] (9)
 - [[Nicholas Rapidis]] (8)
 - [[Alex Droster]] (6)
+- [[Chiara Salemi]] (6)
 - [[Maria Simanovskaia]] (6)
 - [[Alexander Leder]] (5)
 - [[Jonathan Echevers]] (4)
 - [[Lucas Brouwer]] (4)
+- [[Erin Engelhardt]] (2)
+- [[Shreya Puranam]] (2)
+- [[Penelope Quassolo]] (2)
 - [[Sean O'Brien]] (2)
 
 ## Publications

@@ -3,8 +3,10 @@ type: "person"
 title: "Jonathan Echevers"
 inspire:
   - "https://inspirehep.net/authors/1873227"
-group: "Van Bibber Group"
-group_role: "Postdoc"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "Postdoc"
 status: "current"
 tags:
   - "person"
@@ -40,10 +42,14 @@ tags:
 - [[Nicholas Rapidis]] (6)
 - [[Maria Simanovskaia]] (6)
 - [[Aya Keller]] (4)
+- [[Chiara Salemi]] (4)
 - [[Heather Jackson]] (3)
 - [[Samantha Lewis]] (3)
 - [[Alexander Leder]] (3)
 - [[Shriram Sadashivajois]] (2)
+- [[Erin Engelhardt]] (2)
+- [[Shreya Puranam]] (2)
+- [[Penelope Quassolo]] (2)
 - [[Lucas Brouwer]] (2)
 - [[Sharada Sahoo]] (1)
 - [[Michael Sekatchev]] (1)

@@ -12,10 +12,12 @@ tags:
 
 ## Groups
 - [[Van Bibber Group]]
+- [[Salemi Group]]
 
-**28** people · **34** places · **40** projects
+**35** people · **42** places · **46** projects
 
 ## Projects
+- [[ABRACADABRA]]
 - [[ADMX]]
 - [[ALPHA]]
 - [[BaBar]]
@@ -41,6 +43,8 @@ tags:
 - [[LARP]]
 - [[LEGEND]]
 - [[LISA]]
+- [[LUX]]
+- [[LZ]]
 - [[MINER]]
 - [[nEXO]]
 - [[NIFFTE]]
@@ -52,10 +56,13 @@ tags:
 - [[SLAC-E-146]]
 - [[SLAC-NE-04]]
 - [[SLAC-NE-18]]
+- [[SQUAT]]
 - [[SuperCDMS]]
+- [[TESSERACT]]
 - [[VERITAS]]
 - [[WATCHMAN]]
 - [[XENON]]
+- [[XLZD]]
 <!-- generated:end -->
 ## Notes
 

@@ -4,8 +4,10 @@ title: "Alex Droster"
 inspire:
   - "https://inspirehep.net/authors/2056868"
   - "https://inspirehep.net/authors/2567606"
-group: "Van Bibber Group"
-group_role: "PhD student"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "PhD student"
 status: "alumni"
 tags:
   - "person"
@@ -42,6 +44,7 @@ tags:
 - [[Nicholas Rapidis]] (12)
 - [[Heather Jackson]] (10)
 - [[Alexander Leder]] (10)
+- [[Chiara Salemi]] (9)
 - [[Samantha Lewis]] (8)
 - [[Jonathan Echevers]] (7)
 - [[Mackenzie Wooten]] (6)
@@ -49,6 +52,9 @@ tags:
 - [[Dajie Sun]] (4)
 - [[Lucas Brouwer]] (4)
 - [[Shriram Sadashivajois]] (2)
+- [[Erin Engelhardt]] (2)
+- [[Shreya Puranam]] (2)
+- [[Penelope Quassolo]] (2)
 - [[Nolan Kowitt]] (2)
 - [[Saad Al Kenany]] (2)
 - [[Isabella Urdinaran]] (2)

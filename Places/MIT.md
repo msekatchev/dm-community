@@ -14,6 +14,7 @@ Cambridge, United States.
 
 ## People in this graph
 - [[Alexander Leder]]:  (2014–2018);  (2012–2014); on 54 papers (2014–2022)
+- [[Chiara Salemi]]: PhD, Physics (Winslow group, LNS) (2017–2022); on 12 papers (2018–2025)
 - [[Karl van Bibber]]: Instructor, Department of Physics (1976–1977); PhD, Physics (1972–1976); BS, Physics and Mathematics (1968–1972); on 7 papers (1975–1983)
 - [[Samantha Lewis]]: Undergraduate (2012–2015)
 <!-- generated:end -->

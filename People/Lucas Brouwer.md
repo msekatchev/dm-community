@@ -3,8 +3,10 @@ type: "person"
 title: "Lucas Brouwer"
 inspire:
   - "https://inspirehep.net/authors/1653925"
-group: "Van Bibber Group"
-group_role: "PhD student"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "PhD student"
 status: "alumni"
 tags:
   - "person"
@@ -40,6 +42,7 @@ tags:
 - [[Alex Droster]] (4)
 - [[Aya Keller]] (4)
 - [[Nicholas Rapidis]] (4)
+- [[Chiara Salemi]] (4)
 - [[Maria Simanovskaia]] (4)
 - [[Karl van Bibber]] (4)
 - [[Alexander Leder]] (3)

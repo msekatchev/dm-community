@@ -15,6 +15,7 @@ Prévessin, France.
 
 ## People in this graph
 - [[Lucas Brouwer]]: on 12 papers (2019–2021)
+- [[Penelope Quassolo]]: on 6 papers (2023–2026)
 <!-- generated:end -->
 ## Notes
 

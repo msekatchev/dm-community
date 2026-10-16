@@ -3,8 +3,10 @@ type: "person"
 title: "Maria Simanovskaia"
 inspire:
   - "https://inspirehep.net/authors/2014560"
-group: "Van Bibber Group"
-group_role: "PhD student"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "PhD student"
 status: "alumni"
 tags:
   - "person"
@@ -39,6 +41,7 @@ tags:
 - [[Alex Droster]] (13)
 - [[Samantha Lewis]] (10)
 - [[Alexander Leder]] (9)
+- [[Chiara Salemi]] (8)
 - [[Heather Jackson]] (7)
 - [[Jonathan Echevers]] (6)
 - [[Aya Keller]] (6)
@@ -46,6 +49,9 @@ tags:
 - [[Saad Al Kenany]] (5)
 - [[Lucas Brouwer]] (4)
 - [[Jaben Root]] (4)
+- [[Erin Engelhardt]] (2)
+- [[Shreya Puranam]] (2)
+- [[Penelope Quassolo]] (2)
 - [[Mackenzie Wooten]] (2)
 - [[Shriram Sadashivajois]] (1)
 - [[Ronit Nath]] (1)

@@ -3,8 +3,10 @@ type: "person"
 title: "Dillon Goulart"
 inspire:
   - "https://inspirehep.net/authors/2815928"
-group: "Van Bibber Group"
-group_role: "Group member"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "Group member"
 status: "alumni"
 tags:
   - "person"

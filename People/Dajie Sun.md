@@ -3,8 +3,10 @@ type: "person"
 title: "Dajie Sun"
 inspire:
   - "https://inspirehep.net/authors/1891164"
-group: "Van Bibber Group"
-group_role: "Group member"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "Group member"
 status: "alumni"
 tags:
   - "person"

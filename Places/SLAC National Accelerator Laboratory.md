@@ -16,6 +16,7 @@ Menlo Park, United States.
 ## People in this graph
 - [[Alex Droster]]: on 4 papers (2026)
 - [[Aya Keller]]: on 1 paper (2026)
+- [[Chiara Salemi]]: on 16 papers (2022–2026)
 - [[Maria Simanovskaia]]: on 3 papers (2023–2026)
 - [[Nicholas Rapidis]]: on 3 papers (2023–2026)
 - [[Samantha Lewis]]: PhD (2018–2021); on 5 papers (2019–2022)

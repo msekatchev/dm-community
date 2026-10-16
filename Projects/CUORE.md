@@ -19,6 +19,7 @@ Classification: Neutrino (flavor) experiments › Neutrinoless double beta decay
 
 ## People in this graph
 - [[Alexander Leder]] (28 papers, listed member)
+- [[Shreya Puranam]] (1 paper)
 <!-- generated:end -->
 ## Notes
 

@@ -20,6 +20,7 @@ Berkeley, United States.
 - [[Alexander Leder]]: Postdoc (2018–2023); on 15 papers (2020–2025)
 - [[Anna Dawes]]: on 1 paper (2024)
 - [[Aya Keller]]: on 8 papers (2021–2025)
+- [[Chiara Salemi]]: Assistant Professor of Physics (2025–present); on 4 papers (2026)
 - [[Christian Hagmann]]: Postdoc (1990–1994); on 5 papers (1991–1994)
 - [[Dajie Sun]]: on 4 papers (2022–2026)
 - [[Dillon Goulart]]: on 1 paper (2024)
@@ -34,11 +35,14 @@ Berkeley, United States.
 - [[Mirelys Carcana Barbosa]]: on 1 paper (2024)
 - [[Nicholas Rapidis]]: Undergraduate (2015–2019); on 11 papers (2016–2024)
 - [[Nolan Kowitt]]: on 3 papers (2022–2024)
+- [[Penelope Quassolo]]: on 1 paper (2026)
 - [[Ronit Nath]]: on 1 paper (2024)
+- [[Ryan Gibbons]]: on 32 papers (2022–2026)
 - [[Saad Al Kenany]]: on 10 papers (2012–2022)
 - [[Samantha Lewis]]: PhD (2015–2020); on 13 papers (2016–2025)
 - [[Sean O'Brien]]: on 2 papers (2021)
 - [[Sharada Sahoo]]: Postdoc (2026–2028); on 1 paper (2026)
+- [[Shreya Puranam]]: on 6 papers (2025–2026)
 - [[Shriram Sadashivajois]]: Postdoc (2024–present); on 4 papers (2024–2026)
 <!-- generated:end -->
 ## Notes

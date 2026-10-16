@@ -3,8 +3,10 @@ type: "person"
 title: "Albert Yuen"
 inspire:
   - "https://inspirehep.net/authors/2426038"
-group: "Van Bibber Group"
-group_role: "PhD student"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "PhD student"
 status: "alumni"
 tags:
   - "person"

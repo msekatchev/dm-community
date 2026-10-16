@@ -4,8 +4,10 @@ title: "Sean O'Brien"
 inspire:
   - "https://inspirehep.net/authors/1985904"
   - "https://inspirehep.net/authors/1927415"
-group: "Van Bibber Group"
-group_role: "Group member"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "Group member"
 status: "alumni"
 tags:
   - "person"

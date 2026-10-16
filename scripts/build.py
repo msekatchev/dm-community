@@ -35,9 +35,23 @@ THIS_YEAR = date.today().year
 ACTIVE_WINDOW = 3  # a person or project with no paper in this many years counts as inactive
 ROLE_MAP = {"PI": "PI", "Postdoc": "Postdoc", "Postdoc (LLNL era)": "Postdoc",
             "Graduate student": "PhD student", "PhD student": "PhD student",
-            "Undergraduate": "Undergrad", "Group member": "Other member"}
+            "Undergraduate": "Undergrad", "Post-bacc": "Undergrad", "Group member": "Other member"}
 ROLE_ORDER = ["PI", "Postdoc", "Graduate student", "PhD student", "Postdoc (LLNL era)",
-              "Undergraduate", "Group member"]
+              "Undergraduate", "Post-bacc", "Group member"]
+
+
+def memberships(p):
+    """All group memberships of a person: the main one (group/group_role/status) plus extra_groups."""
+    out = []
+    if p.get("group"):
+        out.append({"group": p["group"], "role": p.get("group_role", "Group member"),
+                    "status": p.get("status"), "destination": p.get("destination")})
+    out += [{"destination": None, **m} for m in p.get("extra_groups", [])]
+    return out
+
+
+def is_current(p):
+    return any(m["status"] == "current" for m in memberships(p))
 
 
 # ------------------------------------------------------------------ loading
@@ -364,21 +378,23 @@ def paper_line(paper):
 
 def person_md(d, data, by_key, groups, students):
     p = d["p"]
-    g = groups.get(p.get("group"))
+    ms = memberships(p)
     name_of = lambda k: link(by_key[k]["name"]) if k in by_key else k
+    status = ("current" if is_current(p) else "alumni") if ms else None
     out = [frontmatter(type="person", title=p["name"],
                        inspire=[f"{INSPIRE}/authors/{r['id']}" for r in p["inspire"]],
-                       group=g["name"] if g else None, group_role=p.get("group_role"),
-                       status=p.get("status"),
-                       tags=["person", *(["group/" + p["group"]] if p.get("group") else []),
-                             *([f"status/{p['status']}"] if p.get("status") else [])]),
+                       groups=[groups[m["group"]]["name"] for m in ms],
+                       roles=[m["role"] for m in ms], status=status,
+                       tags=["person", *[f"group/{m['group']}" for m in ms],
+                             *([f"status/{status}"] if status else [])]),
            GEN_START, ""]
-    if g:
-        when = "current" if p.get("status") == "current" else "former"
-        out.append(f"**{p.get('group_role', 'Member')}** ({when}) in the {link(g['name'])}.")
-    if p.get("destination"):
-        dst = p["destination"]
-        out.append(f"**Went on to:** {dst['text']} ([source]({dst['source']})).")
+    for m in ms:
+        when = "current" if m["status"] == "current" else "former"
+        out.append(f"**{m['role']}** ({when}) in the {link(groups[m['group']]['name'])}.")
+    for m in ms:
+        if m.get("destination"):
+            dst = m["destination"]
+            out.append(f"**Went on to:** {dst['text']} ([source]({dst['source']})).")
     out.append("")
 
     if d["advisors"] or students.get(p["key"]):
@@ -493,15 +509,15 @@ def group_md(g, data, by_key, insts):
     out = [frontmatter(type="group", title=g["name"], url=g["url"], tags=["group"]),
            GEN_START, "", f"*{g['long_name']}*", "", g["description"], "",
            f"[Group website]({g['url']}) · Based at {link(insts.resolve(g['institution']))}", ""]
-    members = [d["p"] for d in data.values() if d["p"].get("group") == g["key"]]
+    members = [(d["p"], m) for d in data.values() for m in memberships(d["p"]) if m["group"] == g["key"]]
     roster = g.get("roster_only", [])
     for status, title in (("current", "Current members"), ("alumni", "Alumni")):
         out.append(f"## {title}")
-        ms = [m for m in members if m.get("status") == status]
-        ms.sort(key=lambda m: (ROLE_ORDER.index(m["group_role"]) if m["group_role"] in ROLE_ORDER else 99, m["name"]))
-        for m in ms:
+        ms = [(p, m) for p, m in members if m["status"] == status]
+        ms.sort(key=lambda pm: (ROLE_ORDER.index(pm[1]["role"]) if pm[1]["role"] in ROLE_ORDER else 99, pm[0]["name"]))
+        for p, m in ms:
             dst = f" → {m['destination']['text']}" if m.get("destination") else ""
-            out.append(f"- {link(m['name'])}: {m['group_role']}{dst}")
+            out.append(f"- {link(p['name'])}: {m['role']}{dst}")
         rs = [r for r in roster if r["status"] == status]
         if rs:
             out += ["", "*Also listed on the group website (no INSPIRE publications, so no note):*"]
@@ -539,13 +555,18 @@ def export_graph(data, by_key, groups, insts, experiments, students):
 
     for k, d in data.items():
         p = d["p"]
-        active = p.get("status") == "current" or (d["last"] or 0) >= THIS_YEAR - ACTIVE_WINDOW
+        ms = memberships(p)
+        main = next((m for m in ms if m["status"] == "current"), ms[0] if ms else None)
+        active = is_current(p) or (d["last"] or 0) >= THIS_YEAR - ACTIVE_WINDOW
         nodes.append({
             "id": f"person:{k}", "type": "person", "label": p["name"], "file": f"People/{safe(p['name'])}.md",
-            "role": ROLE_MAP.get(p.get("group_role"), "Other member") if p.get("group") else None,
-            "status": p.get("status"), "first": d["first"], "last": d["last"],
+            "role": ROLE_MAP.get(main["role"], "Other member") if main else None,
+            "status": ("current" if is_current(p) else "alumni") if ms else None,
+            "groups": [m["group"] for m in ms],
+            "memberships": [{"group": groups[m["group"]]["name"], "role": m["role"], "status": m["status"]} for m in ms],
+            "first": d["first"], "last": d["last"],
             "inField": active and not p.get("left_field", False),
-            "destination": (p.get("destination") or {}).get("text"),
+            "destination": next((m["destination"]["text"] for m in ms if m.get("destination")), None),
             "papers": len(d["papers"]),
             "inspire": f"{INSPIRE}/authors/{p['inspire'][0]['id']}",
         })
@@ -562,9 +583,10 @@ def export_graph(data, by_key, groups, insts, experiments, students):
             a, b = yr([y for y in d["exp_years"].get(e, []) if y])
             links.append({"source": f"person:{k}", "target": f"project:{e}", "kind": "project",
                           "first": a, "last": b, "weight": d["exp_counts"].get(e, 0)})
-        if p.get("group"):
-            links.append({"source": f"person:{k}", "target": f"group:{p['group']}", "kind": "member",
-                          "first": d["first"], "last": d["last"], "weight": 1})
+        for m in ms:
+            links.append({"source": f"person:{k}", "target": f"group:{m['group']}", "kind": "member",
+                          "first": d["first"], "last": THIS_YEAR if m["status"] == "current" else d["last"],
+                          "weight": 1, "status": m["status"]})
         for s in students.get(k, []):
             links.append({"source": f"person:{k}", "target": f"person:{s}", "kind": "advisor",
                           "first": data[s]["first"], "last": data[s]["last"], "weight": 1})

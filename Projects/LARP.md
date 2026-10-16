@@ -17,6 +17,7 @@ tags:
 
 ## People in this graph
 - [[Lucas Brouwer]] (1 paper)
+- [[Penelope Quassolo]] (1 paper)
 <!-- generated:end -->
 ## Notes
 

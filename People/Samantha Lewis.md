@@ -3,8 +3,10 @@ type: "person"
 title: "Samantha Lewis"
 inspire:
   - "https://inspirehep.net/authors/1709757"
-group: "Van Bibber Group"
-group_role: "PhD student"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "PhD student"
 status: "alumni"
 tags:
   - "person"
@@ -60,6 +62,7 @@ tags:
 - [[Jonathan Echevers]] (3)
 - [[Aarav Sindhwad]] (3)
 - [[Dajie Sun]] (2)
+- [[Chiara Salemi]] (2)
 - [[Sharada Sahoo]] (1)
 - [[Michael Sekatchev]] (1)
 - [[Nolan Kowitt]] (1)

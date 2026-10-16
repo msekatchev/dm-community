@@ -3,8 +3,10 @@ type: "person"
 title: "Christian Hagmann"
 inspire:
   - "https://inspirehep.net/authors/1007015"
-group: "Van Bibber Group"
-group_role: "Postdoc (LLNL era)"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "Postdoc (LLNL era)"
 status: "alumni"
 tags:
   - "person"

@@ -3,17 +3,23 @@ type: "person"
 title: "Aarav Sindhwad"
 inspire:
   - "https://inspirehep.net/authors/2815929"
-group: "Van Bibber Group"
-group_role: "Group member"
-status: "alumni"
+groups:
+  - "Van Bibber Group"
+  - "Salemi Group"
+roles:
+  - "Group member"
+  - "Post-bacc"
+status: "current"
 tags:
   - "person"
   - "group/vanbibber"
-  - "status/alumni"
+  - "group/salemi"
+  - "status/current"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
 
 **Group member** (former) in the [[Van Bibber Group]].
+**Post-bacc** (current) in the [[Salemi Group]].
 **Went on to:** Yale ([source](https://axions.berkeley.edu)).
 
 ## Affiliations on papers

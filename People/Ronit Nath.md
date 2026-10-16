@@ -3,8 +3,10 @@ type: "person"
 title: "Ronit Nath"
 inspire:
   - "https://inspirehep.net/authors/2828362"
-group: "Van Bibber Group"
-group_role: "Group member"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "Group member"
 status: "alumni"
 tags:
   - "person"

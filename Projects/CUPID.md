@@ -18,6 +18,7 @@ CUPID is a proposed future ton-scale bolometric neutrinoless double beta decay (
 Classification: Neutrino (flavor) experiments › Neutrinoless double beta decay
 
 ## People in this graph
+- [[Shreya Puranam]] (4 papers)
 - [[Alexander Leder]] (2 papers)
 <!-- generated:end -->
 ## Notes

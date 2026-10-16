@@ -3,8 +3,10 @@ type: "person"
 title: "Jaben Root"
 inspire:
   - "https://inspirehep.net/authors/2014559"
-group: "Van Bibber Group"
-group_role: "Group member"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "Group member"
 status: "alumni"
 tags:
   - "person"

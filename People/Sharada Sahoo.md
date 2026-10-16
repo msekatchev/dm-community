@@ -4,8 +4,10 @@ title: "Sharada Sahoo"
 inspire:
   - "https://inspirehep.net/authors/3148376"
   - "https://inspirehep.net/authors/2461096"
-group: "Van Bibber Group"
-group_role: "Postdoc"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "Postdoc"
 status: "current"
 tags:
   - "person"

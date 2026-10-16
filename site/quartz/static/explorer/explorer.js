@@ -13,7 +13,7 @@
     { key: "PI", label: "PI", token: "--r-pi" },
     { key: "Postdoc", label: "Postdocs", token: "--r-postdoc" },
     { key: "PhD student", label: "PhD students", token: "--r-phd" },
-    { key: "Undergrad", label: "Undergrads", token: "--r-undergrad" },
+    { key: "Undergrad", label: "Undergrads & post-baccs", token: "--r-undergrad" },
     { key: "Other member", label: "Other members", token: "--r-other" },
   ];
   const KINDS = [
@@ -64,6 +64,7 @@
     roles: new Set(),
     kinds: new Set(KINDS.filter((k) => k.on).map((k) => k.key)),
     status: new Set(["current", "alumni"]),
+    groups: new Set(),
     since: null, onlyActive: false, hideEnded: false, onlyDM: false,
     selected: null, hover: null,
   };
@@ -105,6 +106,13 @@
       el("span", { class: `swatch ${t.key}`, style: `--c: var(${t.token})` }), t.label,
       el("span", { class: "n", "data-count-type": t.key }, String(count((n) => n.type === t.key))))));
 
+    const groupNodes = DATA.nodes.filter((n) => n.type === "group");
+    groupNodes.forEach((g) => state.groups.add(g.id.slice(6)));
+    $("#groups").append(...groupNodes.map((g) => el("label", {},
+      el("input", { type: "checkbox", checked: "", "data-group": g.id.slice(6), onchange: (e) => { toggle(state.groups, g.id.slice(6), e.target.checked); refresh(); } }),
+      el("span", { class: "swatch group", style: "--c: var(--t-group)" }), g.label,
+      el("span", { class: "n" }, String(count((n) => (n.groups || []).includes(g.id.slice(6))))))));
+
     $("#roles").append(...ROLES.map((r) => el("label", {},
       el("input", { type: "checkbox", "data-role": r.key, onchange: (e) => { toggle(state.roles, r.key, e.target.checked); refresh(false); } }),
       el("span", { class: "swatch role", style: `--c: var(${r.token})` }), r.label,
@@ -142,8 +150,9 @@
     state.roles.clear();
     state.kinds = new Set(KINDS.filter((k) => k.on).map((k) => k.key));
     state.status = new Set(["current", "alumni"]);
+    state.groups = new Set(DATA.nodes.filter((n) => n.type === "group").map((n) => n.id.slice(6)));
     state.since = null; state.onlyActive = state.hideEnded = state.onlyDM = false;
-    document.querySelectorAll("#types input, #status input").forEach((i) => (i.checked = true));
+    document.querySelectorAll("#types input, #status input, #groups input").forEach((i) => (i.checked = true));
     document.querySelectorAll("#roles input").forEach((i) => (i.checked = false));
     document.querySelectorAll("#kinds input").forEach((i) => (i.checked = state.kinds.has(i.dataset.kind)));
     $("#only-active").checked = $("#hide-ended").checked = $("#only-dm").checked = false;
@@ -159,7 +168,9 @@
   function nodePasses(n) {
     if (!state.types.has(n.type)) return false;
     if (state.since && n.last != null && n.last < state.since) return false;
+    if (n.type === "group" && !state.groups.has(n.id.slice(6))) return false;
     if (n.type === "person") {
+      if (n.groups && n.groups.length && !n.groups.some((g) => state.groups.has(g))) return false;
       if (state.onlyActive && !n.inField) return false;
       if (n.status && !state.status.has(n.status)) return false;
     }
@@ -294,13 +305,13 @@
       .onNodeClick((n) => select(n.id, true))
       .onBackgroundClick(() => deselect())
       .cooldownTicks(200)
-      .onEngineStop(() => { if (!userMoved && !state.selected) graph.zoomToFit(400, 40); });
+      .onEngineStop(() => { settled = true; if (!userMoved && !state.selected) graph.zoomToFit(400, 40); });
     graph.d3Force("charge").strength(-70);
     graph.d3Force("link").distance((l) => (l.kind === "coauthor" ? 60 : 38));
     const resize = () => {
       if (!box.clientWidth || !box.clientHeight) return;
       graph.width(box.clientWidth).height(box.clientHeight);
-      if (!userMoved && !state.selected && visible.nodes.length) graph.zoomToFit(0, 40);
+      if (settled && !userMoved && !state.selected && visible.nodes.length) graph.zoomToFit(0, 40);
     };
     new ResizeObserver(resize).observe(box);
     window.__graph = graph; // handy for debugging from the console
@@ -308,7 +319,7 @@
     // once the user pans or zooms, stop re-fitting automatically
     ["wheel", "pointerdown", "touchstart"].forEach((ev) => box.addEventListener(ev, () => (userMoved = true), { passive: true }));
   }
-  let userMoved = false;
+  let userMoved = false, settled = false;
 
   // ---------------------------------------------------------------- selection + details
   function select(id, zoom) {
@@ -318,6 +329,11 @@
       // selected something currently filtered out: relax just enough to show it
       state.types.add(n.type);
       document.querySelector(`[data-type="${n.type}"]`).checked = true;
+      for (const g of n.groups || (n.type === "group" ? [n.id.slice(6)] : [])) {
+        state.groups.add(g);
+        const box = document.querySelector(`[data-group="${g}"]`);
+        if (box) box.checked = true;
+      }
       refresh();
       if (!neighbors.has(id)) { reset(); }
     }
@@ -362,7 +378,7 @@
     d.replaceChildren();
     const rows = [];
     if (n.type === "person") {
-      if (n.role) rows.push(["Role", n.role + (n.status === "alumni" ? " (alumni)" : " (current)")]);
+      for (const m of n.memberships || []) rows.push(["Group", `${m.role}, ${m.group}${m.status === "alumni" ? " (alumni)" : ""}`]);
       if (n.destination) rows.push(["Went on to", n.destination]);
       if (n.first) rows.push(["Publishing", years(n) + ` · ${n.papers} papers`]);
       rows.push(["Status", n.inField ? "Active in research" : "Inactive or left the field"]);

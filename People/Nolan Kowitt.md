@@ -4,8 +4,10 @@ title: "Nolan Kowitt"
 inspire:
   - "https://inspirehep.net/authors/2159382"
   - "https://inspirehep.net/authors/2854055"
-group: "Van Bibber Group"
-group_role: "Undergraduate"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "Undergraduate"
 status: "alumni"
 tags:
   - "person"

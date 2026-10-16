@@ -18,6 +18,7 @@ The Axion is a long standing candidate for both the Dark Matter in the Universe,
 Classification: Dark matter search experiments › Axion search experiments
 
 ## People in this graph
+- [[Chiara Salemi]] (2 papers)
 - [[Samantha Lewis]] (1 paper)
 <!-- generated:end -->
 ## Notes

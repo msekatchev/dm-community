@@ -17,6 +17,7 @@ Stanford, United States.
 - [[Alex Droster]]: on 1 paper (2026)
 - [[Alexander Leder]]: Visitor (2018–2023)
 - [[Aya Keller]]: on 1 paper (2026)
+- [[Chiara Salemi]]: Porat Postdoctoral Fellow, KIPAC (Stanford / SLAC) (2022–2024); on 2 papers (2023–2025)
 - [[Karl van Bibber]]: Assistant Professor of Physics (1980–1985); on 10 papers (1981–1990)
 - [[Maria Simanovskaia]]: on 9 papers (2022–2026)
 - [[Nicholas Rapidis]]: PhD (2019–2026); on 14 papers (2020–2026)

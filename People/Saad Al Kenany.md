@@ -5,8 +5,10 @@ inspire:
   - "https://inspirehep.net/authors/1906034"
   - "https://inspirehep.net/authors/2058924"
   - "https://inspirehep.net/authors/2596045"
-group: "Van Bibber Group"
-group_role: "PhD student"
+groups:
+  - "Van Bibber Group"
+roles:
+  - "PhD student"
 status: "alumni"
 tags:
   - "person"
