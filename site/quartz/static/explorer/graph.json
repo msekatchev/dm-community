@@ -1309,11 +1309,43 @@
   },
   {
    "source": "person:karl-van-bibber",
-   "target": "project:IAXO",
+   "target": "project:DMRadio",
    "kind": "project",
-   "first": 2012,
-   "last": 2016,
-   "weight": 7
+   "first": 2022,
+   "last": 2023,
+   "weight": 3
+  },
+  {
+   "source": "person:karl-van-bibber",
+   "target": "project:SLAC-NE-04",
+   "kind": "project",
+   "first": 1986,
+   "last": 1992,
+   "weight": 5
+  },
+  {
+   "source": "person:karl-van-bibber",
+   "target": "project:ALPHA",
+   "kind": "project",
+   "first": 2022,
+   "last": 2026,
+   "weight": 2
+  },
+  {
+   "source": "person:karl-van-bibber",
+   "target": "project:BaBar",
+   "kind": "project",
+   "first": 1994,
+   "last": 2014,
+   "weight": 90
+  },
+  {
+   "source": "person:karl-van-bibber",
+   "target": "project:SLAC-E-140X",
+   "kind": "project",
+   "first": 1993,
+   "last": 1995,
+   "weight": 2
   },
   {
    "source": "person:karl-van-bibber",
@@ -1325,18 +1357,50 @@
   },
   {
    "source": "person:karl-van-bibber",
-   "target": "project:ADMX",
+   "target": "project:CAST",
    "kind": "project",
-   "first": 1998,
-   "last": 2011,
-   "weight": 11
+   "first": 2006,
+   "last": 2016,
+   "weight": 25
   },
   {
    "source": "person:karl-van-bibber",
-   "target": "project:ALPHA",
+   "target": "project:SLAC-E-146",
    "kind": "project",
-   "first": 2022,
-   "last": 2026,
+   "first": 1992,
+   "last": 1992,
+   "weight": 1
+  },
+  {
+   "source": "person:karl-van-bibber",
+   "target": "project:IAXO",
+   "kind": "project",
+   "first": 2012,
+   "last": 2016,
+   "weight": 7
+  },
+  {
+   "source": "person:karl-van-bibber",
+   "target": "project:GALAXIS",
+   "kind": "project",
+   "first": null,
+   "last": null,
+   "weight": 0
+  },
+  {
+   "source": "person:karl-van-bibber",
+   "target": "project:HAYSTAC",
+   "kind": "project",
+   "first": 2018,
+   "last": 2025,
+   "weight": 8
+  },
+  {
+   "source": "person:karl-van-bibber",
+   "target": "project:PVLAS",
+   "kind": "project",
+   "first": 2008,
+   "last": 2008,
    "weight": 2
   },
   {
@@ -1349,59 +1413,11 @@
   },
   {
    "source": "person:karl-van-bibber",
-   "target": "project:DMRadio",
-   "kind": "project",
-   "first": 2022,
-   "last": 2023,
-   "weight": 3
-  },
-  {
-   "source": "person:karl-van-bibber",
-   "target": "project:SLAC-E-140X",
-   "kind": "project",
-   "first": 1993,
-   "last": 1995,
-   "weight": 2
-  },
-  {
-   "source": "person:karl-van-bibber",
-   "target": "project:SLAC-E-143",
-   "kind": "project",
-   "first": 1992,
-   "last": 1993,
-   "weight": 2
-  },
-  {
-   "source": "person:karl-van-bibber",
-   "target": "project:SLAC-NE-04",
-   "kind": "project",
-   "first": 1986,
-   "last": 1992,
-   "weight": 5
-  },
-  {
-   "source": "person:karl-van-bibber",
-   "target": "project:SLAC-NE-18",
-   "kind": "project",
-   "first": 1994,
-   "last": 1995,
-   "weight": 5
-  },
-  {
-   "source": "person:karl-van-bibber",
    "target": "project:WATCHMAN",
    "kind": "project",
    "first": 2015,
    "last": 2015,
    "weight": 1
-  },
-  {
-   "source": "person:karl-van-bibber",
-   "target": "project:PVLAS",
-   "kind": "project",
-   "first": 2008,
-   "last": 2008,
-   "weight": 2
   },
   {
    "source": "person:karl-van-bibber",
@@ -1413,19 +1429,11 @@
   },
   {
    "source": "person:karl-van-bibber",
-   "target": "project:HAYSTAC",
+   "target": "project:ADMX",
    "kind": "project",
-   "first": 2018,
-   "last": 2025,
-   "weight": 8
-  },
-  {
-   "source": "person:karl-van-bibber",
-   "target": "project:GALAXIS",
-   "kind": "project",
-   "first": null,
-   "last": null,
-   "weight": 0
+   "first": 1998,
+   "last": 2011,
+   "weight": 11
   },
   {
    "source": "person:karl-van-bibber",
@@ -1437,27 +1445,19 @@
   },
   {
    "source": "person:karl-van-bibber",
-   "target": "project:SLAC-E-146",
+   "target": "project:SLAC-E-143",
    "kind": "project",
    "first": 1992,
-   "last": 1992,
-   "weight": 1
+   "last": 1993,
+   "weight": 2
   },
   {
    "source": "person:karl-van-bibber",
-   "target": "project:BaBar",
+   "target": "project:SLAC-NE-18",
    "kind": "project",
    "first": 1994,
-   "last": 2014,
-   "weight": 90
-  },
-  {
-   "source": "person:karl-van-bibber",
-   "target": "project:CAST",
-   "kind": "project",
-   "first": 2006,
-   "last": 2016,
-   "weight": 25
+   "last": 1995,
+   "weight": 5
   },
   {
    "source": "person:karl-van-bibber",
@@ -1669,6 +1669,14 @@
   },
   {
    "source": "person:shriram-sadashivajois",
+   "target": "project:ALPHA",
+   "kind": "project",
+   "first": 2026,
+   "last": 2026,
+   "weight": 1
+  },
+  {
+   "source": "person:shriram-sadashivajois",
    "target": "project:DarkSide-20k",
    "kind": "project",
    "first": 2023,
@@ -1685,10 +1693,10 @@
   },
   {
    "source": "person:shriram-sadashivajois",
-   "target": "project:ALPHA",
+   "target": "project:HAYSTAC",
    "kind": "project",
-   "first": 2026,
-   "last": 2026,
+   "first": 2025,
+   "last": 2025,
    "weight": 1
   },
   {
@@ -1697,14 +1705,6 @@
    "kind": "project",
    "first": 2022,
    "last": 2022,
-   "weight": 1
-  },
-  {
-   "source": "person:shriram-sadashivajois",
-   "target": "project:HAYSTAC",
-   "kind": "project",
-   "first": 2025,
-   "last": 2025,
    "weight": 1
   },
   {
@@ -1741,18 +1741,26 @@
   },
   {
    "source": "person:jonathan-echevers",
-   "target": "project:EXO-200",
-   "kind": "project",
-   "first": 2019,
-   "last": 2026,
-   "weight": 9
-  },
-  {
-   "source": "person:jonathan-echevers",
    "target": "project:DMRadio",
    "kind": "project",
    "first": 2023,
    "last": 2023,
+   "weight": 1
+  },
+  {
+   "source": "person:jonathan-echevers",
+   "target": "project:nEXO",
+   "kind": "project",
+   "first": 2018,
+   "last": 2023,
+   "weight": 12
+  },
+  {
+   "source": "person:jonathan-echevers",
+   "target": "project:ALPHA",
+   "kind": "project",
+   "first": 2026,
+   "last": 2026,
    "weight": 1
   },
   {
@@ -1765,19 +1773,11 @@
   },
   {
    "source": "person:jonathan-echevers",
-   "target": "project:ALPHA",
+   "target": "project:EXO-200",
    "kind": "project",
-   "first": 2026,
+   "first": 2019,
    "last": 2026,
-   "weight": 1
-  },
-  {
-   "source": "person:jonathan-echevers",
-   "target": "project:nEXO",
-   "kind": "project",
-   "first": 2018,
-   "last": 2023,
-   "weight": 12
+   "weight": 9
   },
   {
    "source": "person:jonathan-echevers",
@@ -1885,19 +1885,19 @@
   },
   {
    "source": "person:sharada-sahoo",
-   "target": "project:ALPHA",
-   "kind": "project",
-   "first": 2026,
-   "last": 2026,
-   "weight": 1
-  },
-  {
-   "source": "person:sharada-sahoo",
    "target": "project:MINER",
    "kind": "project",
    "first": 2025,
    "last": 2026,
    "weight": 2
+  },
+  {
+   "source": "person:sharada-sahoo",
+   "target": "project:ALPHA",
+   "kind": "project",
+   "first": 2026,
+   "last": 2026,
+   "weight": 1
   },
   {
    "source": "person:sharada-sahoo",
@@ -1997,6 +1997,14 @@
   },
   {
    "source": "person:lucas-brouwer",
+   "target": "project:CERN-HL-LHC",
+   "kind": "project",
+   "first": 2021,
+   "last": 2021,
+   "weight": 2
+  },
+  {
+   "source": "person:lucas-brouwer",
    "target": "project:DMRadio",
    "kind": "project",
    "first": 2022,
@@ -2018,14 +2026,6 @@
    "first": 2019,
    "last": 2019,
    "weight": 1
-  },
-  {
-   "source": "person:lucas-brouwer",
-   "target": "project:CERN-HL-LHC",
-   "kind": "project",
-   "first": 2021,
-   "last": 2021,
-   "weight": 2
   },
   {
    "source": "person:lucas-brouwer",
@@ -2133,11 +2133,11 @@
   },
   {
    "source": "person:samantha-lewis",
-   "target": "project:BREAD",
+   "target": "project:HAYSTAC",
    "kind": "project",
-   "first": 2021,
-   "last": 2021,
-   "weight": 1
+   "first": 2017,
+   "last": 2025,
+   "weight": 7
   },
   {
    "source": "person:samantha-lewis",
@@ -2149,11 +2149,11 @@
   },
   {
    "source": "person:samantha-lewis",
-   "target": "project:HAYSTAC",
+   "target": "project:BREAD",
    "kind": "project",
-   "first": 2017,
-   "last": 2025,
-   "weight": 7
+   "first": 2021,
+   "last": 2021,
+   "weight": 1
   },
   {
    "source": "person:samantha-lewis",
@@ -2365,19 +2365,19 @@
   },
   {
    "source": "person:alex-droster",
-   "target": "project:ALPHA",
-   "kind": "project",
-   "first": 2022,
-   "last": 2026,
-   "weight": 2
-  },
-  {
-   "source": "person:alex-droster",
    "target": "project:HAYSTAC",
    "kind": "project",
    "first": 2019,
    "last": 2025,
    "weight": 6
+  },
+  {
+   "source": "person:alex-droster",
+   "target": "project:ALPHA",
+   "kind": "project",
+   "first": 2022,
+   "last": 2026,
+   "weight": 2
   },
   {
    "source": "person:alex-droster",
@@ -2613,19 +2613,19 @@
   },
   {
    "source": "person:aya-keller",
-   "target": "project:DMRadio",
-   "kind": "project",
-   "first": 2022,
-   "last": 2023,
-   "weight": 3
-  },
-  {
-   "source": "person:aya-keller",
    "target": "project:LISA",
    "kind": "project",
    "first": 2015,
    "last": 2015,
    "weight": 1
+  },
+  {
+   "source": "person:aya-keller",
+   "target": "project:DMRadio",
+   "kind": "project",
+   "first": 2022,
+   "last": 2023,
+   "weight": 3
   },
   {
    "source": "person:aya-keller",
@@ -2717,19 +2717,19 @@
   },
   {
    "source": "person:heather-jackson",
-   "target": "project:ALPHA",
-   "kind": "project",
-   "first": 2022,
-   "last": 2026,
-   "weight": 2
-  },
-  {
-   "source": "person:heather-jackson",
    "target": "project:HAYSTAC",
    "kind": "project",
    "first": 2020,
    "last": 2025,
    "weight": 5
+  },
+  {
+   "source": "person:heather-jackson",
+   "target": "project:ALPHA",
+   "kind": "project",
+   "first": 2022,
+   "last": 2026,
+   "weight": 2
   },
   {
    "source": "person:heather-jackson",
@@ -2901,59 +2901,11 @@
   },
   {
    "source": "person:alexander-leder",
-   "target": "project:LEGEND",
-   "kind": "project",
-   "first": 2025,
-   "last": 2026,
-   "weight": 2
-  },
-  {
-   "source": "person:alexander-leder",
-   "target": "project:Ricochet",
-   "kind": "project",
-   "first": null,
-   "last": null,
-   "weight": 0
-  },
-  {
-   "source": "person:alexander-leder",
-   "target": "project:CUORE",
-   "kind": "project",
-   "first": 2016,
-   "last": 2021,
-   "weight": 28
-  },
-  {
-   "source": "person:alexander-leder",
-   "target": "project:ALPHA",
-   "kind": "project",
-   "first": 2022,
-   "last": 2022,
-   "weight": 1
-  },
-  {
-   "source": "person:alexander-leder",
-   "target": "project:CDMS-II",
+   "target": "project:CDMS",
    "kind": "project",
    "first": 2014,
    "last": 2018,
-   "weight": 4
-  },
-  {
-   "source": "person:alexander-leder",
-   "target": "project:SuperCDMS",
-   "kind": "project",
-   "first": 2014,
-   "last": 2017,
-   "weight": 7
-  },
-  {
-   "source": "person:alexander-leder",
-   "target": "project:GBT Dark Matter",
-   "kind": "project",
-   "first": null,
-   "last": null,
-   "weight": 0
+   "weight": 2
   },
   {
    "source": "person:alexander-leder",
@@ -2965,11 +2917,11 @@
   },
   {
    "source": "person:alexander-leder",
-   "target": "project:HAYSTAC",
+   "target": "project:ALPHA",
    "kind": "project",
-   "first": 2020,
-   "last": 2025,
-   "weight": 4
+   "first": 2022,
+   "last": 2022,
+   "weight": 1
   },
   {
    "source": "person:alexander-leder",
@@ -2981,11 +2933,59 @@
   },
   {
    "source": "person:alexander-leder",
-   "target": "project:CDMS",
+   "target": "project:SuperCDMS",
+   "kind": "project",
+   "first": 2014,
+   "last": 2017,
+   "weight": 7
+  },
+  {
+   "source": "person:alexander-leder",
+   "target": "project:CDMS-II",
    "kind": "project",
    "first": 2014,
    "last": 2018,
+   "weight": 4
+  },
+  {
+   "source": "person:alexander-leder",
+   "target": "project:LEGEND",
+   "kind": "project",
+   "first": 2025,
+   "last": 2026,
    "weight": 2
+  },
+  {
+   "source": "person:alexander-leder",
+   "target": "project:CUORE",
+   "kind": "project",
+   "first": 2016,
+   "last": 2021,
+   "weight": 28
+  },
+  {
+   "source": "person:alexander-leder",
+   "target": "project:HAYSTAC",
+   "kind": "project",
+   "first": 2020,
+   "last": 2025,
+   "weight": 4
+  },
+  {
+   "source": "person:alexander-leder",
+   "target": "project:GBT Dark Matter",
+   "kind": "project",
+   "first": null,
+   "last": null,
+   "weight": 0
+  },
+  {
+   "source": "person:alexander-leder",
+   "target": "project:Ricochet",
+   "kind": "project",
+   "first": null,
+   "last": null,
+   "weight": 0
   },
   {
    "source": "person:alexander-leder",
@@ -3277,19 +3277,19 @@
   },
   {
    "source": "person:christian-hagmann",
-   "target": "project:NIFFTE",
-   "kind": "project",
-   "first": 2017,
-   "last": 2021,
-   "weight": 4
-  },
-  {
-   "source": "person:christian-hagmann",
    "target": "project:XENON",
    "kind": "project",
    "first": 2005,
    "last": 2005,
    "weight": 1
+  },
+  {
+   "source": "person:christian-hagmann",
+   "target": "project:NIFFTE",
+   "kind": "project",
+   "first": 2017,
+   "last": 2021,
+   "weight": 4
   },
   {
    "source": "person:christian-hagmann",

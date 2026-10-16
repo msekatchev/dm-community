@@ -518,7 +518,8 @@ def home_md(groups, written):
            "",
            '<p class="explorer-links">People, places and projects in dark matter research, from '
            '<a href="https://inspirehep.net">INSPIRE-HEP</a> and a hand-curated seed list · '
-           '<a href="static/explorer/index.html" target="_blank">Open the graph full screen ↗</a></p>',
+           '<a href="static/explorer/index.html" target="_blank">Open the graph full screen ↗</a> · '
+           '<a href="https://github.com/msekatchev/dm-community/issues">Request a correction</a></p>',
            "", "## Groups"]
     out += [f"- {link(g['name'])}" for g in groups.values()]
     out += ["", f"**{len(written['People'])}** people · **{len(written['Places'])}** places · "

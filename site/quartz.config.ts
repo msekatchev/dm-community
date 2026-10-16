@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: "localhost:8080",
+    baseUrl: "msekatchev.github.io/dm-community",
     ignorePatterns: ["site", "data", "scripts", "README.md", "private", "templates", ".obsidian", ".trash"],
     defaultDateType: "modified",
     theme: {

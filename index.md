@@ -8,7 +8,7 @@ tags:
 
 <iframe class="explorer-frame" src="static/explorer/index.html" title="Community graph explorer" loading="lazy"></iframe>
 
-<p class="explorer-links">People, places and projects in dark matter research, from <a href="https://inspirehep.net">INSPIRE-HEP</a> and a hand-curated seed list · <a href="static/explorer/index.html" target="_blank">Open the graph full screen ↗</a></p>
+<p class="explorer-links">People, places and projects in dark matter research, from <a href="https://inspirehep.net">INSPIRE-HEP</a> and a hand-curated seed list · <a href="static/explorer/index.html" target="_blank">Open the graph full screen ↗</a> · <a href="https://github.com/msekatchev/dm-community/issues">Request a correction</a></p>
 
 ## Groups
 - [[Van Bibber Group]]
