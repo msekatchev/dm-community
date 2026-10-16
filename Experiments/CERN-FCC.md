@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "CERN-FCC"
+title: "CERN-FCC"
 long_name: "Future Circular Collider"
 inspire: "https://inspirehep.net/experiments/1614720"
 url: "https://en.wikipedia.org/wiki/Future_Circular_Collider"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# CERN-FCC
 
 *Future Circular Collider*
 

@@ -1,13 +1,12 @@
 ---
 type: "experiment"
-name: "DarkSide-20k"
+title: "DarkSide-20k"
 long_name: "DarkSide-20k: A 20 Tonne Two-Phase LAr TPC for Direct Dark Matter Detection at LNGS"
 inspire: "https://inspirehep.net/experiments/1830577"
 tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# DarkSide-20k
 
 *DarkSide-20k: A 20 Tonne Two-Phase LAr TPC for Direct Dark Matter Detection at LNGS*
 

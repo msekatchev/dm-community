@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Albert Yuen"
+title: "Albert Yuen"
 inspire:
   - "https://inspirehep.net/authors/2426038"
 group: "Van Bibber Group"
@@ -12,7 +12,6 @@ tags:
   - "status/alumni"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Albert Yuen
 
 **PhD student** (former) in the [[Van Bibber Group]].
 

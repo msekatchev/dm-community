@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "CDMS-II"
+title: "CDMS-II"
 long_name: "A Search for Cold Dark Matter with Cryogenic Detectors at the Soudan Mine"
 inspire: "https://inspirehep.net/experiments/1108506"
 url: "http://cdms.berkeley.edu/"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# CDMS-II
 
 *A Search for Cold Dark Matter with Cryogenic Detectors at the Soudan Mine*
 

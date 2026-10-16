@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Samantha Lewis"
+title: "Samantha Lewis"
 inspire:
   - "https://inspirehep.net/authors/1709757"
 group: "Van Bibber Group"
@@ -12,7 +12,6 @@ tags:
   - "status/alumni"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Samantha Lewis
 
 **PhD student** (former) in the [[Van Bibber Group]].
 **Went on to:** Assistant Professor of Physics, Wellesley College (from July 2023) ([source](https://axions.berkeley.edu)).

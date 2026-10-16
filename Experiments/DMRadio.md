@@ -1,13 +1,12 @@
 ---
 type: "experiment"
-name: "DMRadio"
+title: "DMRadio"
 long_name: "DMRadio: lumped-element search for low-mass axions"
 url: "https://dmradio.stanford.edu"
 tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# DMRadio
 
 *DMRadio: lumped-element search for low-mass axions*
 

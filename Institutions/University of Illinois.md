@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "University of Illinois"
+title: "University of Illinois"
 inspire: "https://inspirehep.net/institutions/1112663"
 city: "Urbana"
 country: "United States"
@@ -9,7 +9,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# University of Illinois
 
 Urbana, United States.
 [INSPIRE](https://inspirehep.net/institutions/1112663) · [Website](http://illinois.edu/)

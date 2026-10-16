@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Sean O'Brien"
+title: "Sean O'Brien"
 inspire:
   - "https://inspirehep.net/authors/1985904"
   - "https://inspirehep.net/authors/1927415"
@@ -13,7 +13,6 @@ tags:
   - "status/alumni"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Sean O'Brien
 
 **Group member** (former) in the [[Van Bibber Group]].
 

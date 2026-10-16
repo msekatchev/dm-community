@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "Los Alamos National Laboratory"
+title: "Los Alamos National Laboratory"
 inspire: "https://inspirehep.net/institutions/902968"
 city: "Los Alamos"
 country: "United States"
@@ -9,7 +9,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Los Alamos National Laboratory
 
 Los Alamos, United States.
 [INSPIRE](https://inspirehep.net/institutions/902968) · [Website](http://www.lanl.gov/)

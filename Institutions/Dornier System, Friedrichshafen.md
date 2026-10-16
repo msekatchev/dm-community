@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "Dornier System, Friedrichshafen"
+title: "Dornier System, Friedrichshafen"
 inspire: "https://inspirehep.net/institutions/905119"
 city: "Friedrichshafen"
 country: "Germany"
@@ -8,7 +8,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Dornier System, Friedrichshafen
 
 Friedrichshafen, Germany.
 [INSPIRE](https://inspirehep.net/institutions/905119)

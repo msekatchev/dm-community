@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Mirelys Carcana Barbosa"
+title: "Mirelys Carcana Barbosa"
 inspire:
   - "https://inspirehep.net/authors/2463075"
 group: "Van Bibber Group"
@@ -12,7 +12,6 @@ tags:
   - "status/alumni"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Mirelys Carcana Barbosa
 
 **Group member** (former) in the [[Van Bibber Group]].
 **Went on to:** Brown ([source](https://axions.berkeley.edu)).

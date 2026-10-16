@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Nolan Kowitt"
+title: "Nolan Kowitt"
 inspire:
   - "https://inspirehep.net/authors/2159382"
   - "https://inspirehep.net/authors/2854055"
@@ -13,7 +13,6 @@ tags:
   - "status/alumni"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Nolan Kowitt
 
 **Undergraduate** (former) in the [[Van Bibber Group]].
 **Went on to:** MIT ([source](https://axions.berkeley.edu)).

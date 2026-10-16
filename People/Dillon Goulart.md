@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Dillon Goulart"
+title: "Dillon Goulart"
 inspire:
   - "https://inspirehep.net/authors/2815928"
 group: "Van Bibber Group"
@@ -12,7 +12,6 @@ tags:
   - "status/alumni"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Dillon Goulart
 
 **Group member** (former) in the [[Van Bibber Group]].
 **Went on to:** UC Davis ([source](https://axions.berkeley.edu)).

@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Ronit Nath"
+title: "Ronit Nath"
 inspire:
   - "https://inspirehep.net/authors/2828362"
 group: "Van Bibber Group"
@@ -12,7 +12,6 @@ tags:
   - "status/alumni"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Ronit Nath
 
 **Group member** (former) in the [[Van Bibber Group]].
 **Went on to:** Start-up ([source](https://axions.berkeley.edu)).

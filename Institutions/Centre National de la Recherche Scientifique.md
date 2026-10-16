@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "Centre National de la Recherche Scientifique"
+title: "Centre National de la Recherche Scientifique"
 inspire: "https://inspirehep.net/institutions/926589"
 city: "Paris"
 country: "France"
@@ -9,7 +9,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Centre National de la Recherche Scientifique
 
 Paris, France.
 [INSPIRE](https://inspirehep.net/institutions/926589) · [Website](http://www.cnrs.fr/)

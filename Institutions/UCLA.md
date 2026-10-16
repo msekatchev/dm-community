@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "UCLA"
+title: "UCLA"
 inspire: "https://inspirehep.net/institutions/1189882"
 city: "Los Angeles"
 country: "United States"
@@ -9,7 +9,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# UCLA
 
 Los Angeles, United States.
 [INSPIRE](https://inspirehep.net/institutions/1189882) · [Website](http://www.ucla.edu/)

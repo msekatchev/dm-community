@@ -1,13 +1,12 @@
 ---
 type: "experiment"
-name: "GBT Dark Matter"
+title: "GBT Dark Matter"
 long_name: "Green Bank Telescope dark matter searches"
 url: "https://axions.berkeley.edu"
 tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# GBT Dark Matter
 
 *Green Bank Telescope dark matter searches*
 

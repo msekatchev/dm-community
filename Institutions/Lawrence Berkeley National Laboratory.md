@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "Lawrence Berkeley National Laboratory"
+title: "Lawrence Berkeley National Laboratory"
 inspire: "https://inspirehep.net/institutions/1189711"
 city: "Berkeley"
 country: "United States"
@@ -9,7 +9,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Lawrence Berkeley National Laboratory
 
 Berkeley, United States.
 [INSPIRE](https://inspirehep.net/institutions/1189711) · [Website](http://www.lbl.gov/)

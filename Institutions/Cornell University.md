@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "Cornell University"
+title: "Cornell University"
 inspire: "https://inspirehep.net/institutions/911819"
 city: "Ithaca"
 country: "United States"
@@ -8,7 +8,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Cornell University
 
 Ithaca, United States.
 [INSPIRE](https://inspirehep.net/institutions/911819)

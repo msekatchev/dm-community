@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "VERITAS"
+title: "VERITAS"
 long_name: "Very Energetic Radiation Imaging Telescope Array System"
 inspire: "https://inspirehep.net/experiments/1110615"
 url: "http://veritas.sao.arizona.edu/"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# VERITAS
 
 *Very Energetic Radiation Imaging Telescope Array System*
 

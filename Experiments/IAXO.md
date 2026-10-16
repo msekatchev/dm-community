@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "IAXO"
+title: "IAXO"
 long_name: "IAXO: The International Axion Observatory"
 inspire: "https://inspirehep.net/experiments/1698854"
 url: "http://iaxo.web.cern.ch/content/home-international-axion-observatory"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# IAXO
 
 *IAXO: The International Axion Observatory*
 

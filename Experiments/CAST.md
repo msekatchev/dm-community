@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "CAST"
+title: "CAST"
 long_name: "{CERN} Axion Solar Telescope"
 inspire: "https://inspirehep.net/experiments/1110249"
 url: "http://www.cern.ch/CAST/"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# CAST
 
 *{CERN} Axion Solar Telescope*
 

@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Michael Sekatchev"
+title: "Michael Sekatchev"
 inspire:
   - "https://inspirehep.net/authors/2800073"
 group: "Van Bibber Group"
@@ -12,7 +12,6 @@ tags:
   - "status/current"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Michael Sekatchev
 
 **Graduate student** (current) in the [[Van Bibber Group]].
 

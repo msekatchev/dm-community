@@ -12,7 +12,7 @@ The first slice covers Karl van Bibber's group at UC Berkeley (current members a
 | `Groups/` | Research groups with full rosters |
 | `Institutions/` | Universities and labs, with who in the graph worked there and when |
 | `Experiments/` | Experiments and collaborations, with who in the graph is involved |
-| `Home.md` | Entry point |
+| `index.md` | Entry point (also the website homepage) |
 | `data/seed.toml` | The hand-curated input: who's in the graph, their INSPIRE IDs, group roles, corrections |
 | `scripts/` | `fetch.py` (INSPIRE → `data/raw/` cache) and `build.py` (cache → notes) |
 

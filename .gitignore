@@ -3,3 +3,6 @@ data/raw/
 .obsidian/workspace*.json
 .trash/
 __pycache__/
+site/node_modules/
+site/public/
+site/.quartz-cache/

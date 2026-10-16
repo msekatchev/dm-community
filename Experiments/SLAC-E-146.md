@@ -1,13 +1,12 @@
 ---
 type: "experiment"
-name: "SLAC-E-146"
+title: "SLAC-E-146"
 long_name: "STUDY OF THE INTERFERENCE BETWEEN MULTIPLE SCATTERING AND BREMSSTRAHLUNG (THE LPM EFFECT)"
 inspire: "https://inspirehep.net/experiments/1108651"
 tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# SLAC-E-146
 
 *STUDY OF THE INTERFERENCE BETWEEN MULTIPLE SCATTERING AND BREMSSTRAHLUNG (THE LPM EFFECT)*
 

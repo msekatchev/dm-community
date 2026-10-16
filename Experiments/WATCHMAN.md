@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "WATCHMAN"
+title: "WATCHMAN"
 long_name: "WATCHMAN: WATer CHerenkov Monitor for Anti-Neutrinos"
 inspire: "https://inspirehep.net/experiments/2044185"
 url: "https://svoboda.ucdavis.edu/experiments/watchman"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# WATCHMAN
 
 *WATCHMAN: WATer CHerenkov Monitor for Anti-Neutrinos*
 

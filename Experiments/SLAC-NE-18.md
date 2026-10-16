@@ -1,13 +1,12 @@
 ---
 type: "experiment"
-name: "SLAC-NE-18"
+title: "SLAC-NE-18"
 long_name: "MEASUREMENT OF THE NUCLEAR DEPENDENCE AND MOMENTUM TRANSFER DEPENDENCE OF QUASIELASTIC (E, E-PRIME P) SCATTERING AT LARGE MOMENTUM TRANSFER"
 inspire: "https://inspirehep.net/experiments/1108793"
 tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# SLAC-NE-18
 
 *MEASUREMENT OF THE NUCLEAR DEPENDENCE AND MOMENTUM TRANSFER DEPENDENCE OF QUASIELASTIC (E, E-PRIME P) SCATTERING AT LARGE MOMENTUM TRANSFER*
 

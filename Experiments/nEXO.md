@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "nEXO"
+title: "nEXO"
 long_name: "The Next Enriched Xenon Observatory"
 inspire: "https://inspirehep.net/experiments/1108495"
 url: "https://nexo.llnl.gov/"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# nEXO
 
 *The Next Enriched Xenon Observatory*
 

@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "Naval Postgraduate School"
+title: "Naval Postgraduate School"
 inspire: "https://inspirehep.net/institutions/903053"
 city: "Monterey"
 country: "United States"
@@ -9,7 +9,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Naval Postgraduate School
 
 Monterey, United States.
 [INSPIRE](https://inspirehep.net/institutions/903053) · [Website](http://www.nps.navy.mil/)

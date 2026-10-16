@@ -1,13 +1,12 @@
 ---
 type: "experiment"
-name: "GALAXIS"
+title: "GALAXIS"
 long_name: "GALAXIS: prototype gamma-ray calorimeter for CubeSats"
 url: "https://axions.berkeley.edu"
 tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# GALAXIS
 
 *GALAXIS: prototype gamma-ray calorimeter for CubeSats*
 

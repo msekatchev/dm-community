@@ -1,11 +1,10 @@
 ---
 type: "experiment"
-name: "ALPHA"
+title: "ALPHA"
 tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# ALPHA
 
 ## People in this graph
 - [[Alex Droster]] (2 papers)

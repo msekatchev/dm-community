@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Patricia Schuster"
+title: "Patricia Schuster"
 inspire:
   - "https://inspirehep.net/authors/1861076"
   - "https://inspirehep.net/authors/3145441"
@@ -14,7 +14,6 @@ tags:
   - "status/alumni"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Patricia Schuster
 
 **PhD student** (former) in the [[Van Bibber Group]].
 

@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "Rheinische Friedrich-Wilhelms-Universität Bonn"
+title: "Rheinische Friedrich-Wilhelms-Universität Bonn"
 inspire: "https://inspirehep.net/institutions/928256"
 city: "Bonn"
 country: "Germany"
@@ -9,7 +9,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Rheinische Friedrich-Wilhelms-Universität Bonn
 
 Bonn, Germany.
 [INSPIRE](https://inspirehep.net/institutions/928256) · [Website](http://www3.uni-bonn.de/)

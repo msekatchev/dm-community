@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "SLAC-E-143"
+title: "SLAC-E-143"
 long_name: "MEASUREMENTS OF THE NUCLEON SPIN STRUCTURE IN END STATION A AT SLAC"
 inspire: "https://inspirehep.net/experiments/1108679"
 url: "http://www.slac.stanford.edu/exp/e143/home.html"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# SLAC-E-143
 
 *MEASUREMENTS OF THE NUCLEON SPIN STRUCTURE IN END STATION A AT SLAC*
 

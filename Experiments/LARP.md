@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "LARP"
+title: "LARP"
 long_name: "US LHC Accelerator Research Program"
 inspire: "https://inspirehep.net/experiments/1108219"
 url: "http://www.uslarp.org/"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# LARP
 
 *US LHC Accelerator Research Program*
 

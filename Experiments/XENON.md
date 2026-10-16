@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "XENON"
+title: "XENON"
 long_name: "XENON Dark Matter Search"
 inspire: "https://inspirehep.net/experiments/1108293"
 url: "http://xenon.astro.columbia.edu"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# XENON
 
 *XENON Dark Matter Search*
 

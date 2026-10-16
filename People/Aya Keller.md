@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Aya Keller"
+title: "Aya Keller"
 inspire:
   - "https://inspirehep.net/authors/2037609"
   - "https://inspirehep.net/authors/1985903"
@@ -13,7 +13,6 @@ tags:
   - "status/alumni"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Aya Keller
 
 **PhD student** (former) in the [[Van Bibber Group]].
 **Went on to:** Karl van Bibber Postdoctoral Fellow, Stanford (Kent Irwin group) ([source](https://axions.berkeley.edu)).

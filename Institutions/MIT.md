@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "MIT"
+title: "MIT"
 inspire: "https://inspirehep.net/institutions/907455"
 city: "Cambridge"
 country: "United States"
@@ -8,7 +8,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# MIT
 
 Cambridge, United States.
 [INSPIRE](https://inspirehep.net/institutions/907455)

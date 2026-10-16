@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "Princeton University"
+title: "Princeton University"
 inspire: "https://inspirehep.net/institutions/1118336"
 city: "Princeton"
 country: "United States"
@@ -9,7 +9,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Princeton University
 
 Princeton, United States.
 [INSPIRE](https://inspirehep.net/institutions/1118336) · [Website](http://www.princeton.edu)

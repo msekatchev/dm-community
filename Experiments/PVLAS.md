@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "PVLAS"
+title: "PVLAS"
 long_name: "PVLAS: Exploring the Quantum Vacuum and its Structure"
 inspire: "https://inspirehep.net/experiments/1110297"
 url: "http://www.ts.infn.it/experiments/pvlas"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# PVLAS
 
 *PVLAS: Exploring the Quantum Vacuum and its Structure*
 

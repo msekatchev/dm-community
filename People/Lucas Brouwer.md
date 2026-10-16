@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Lucas Brouwer"
+title: "Lucas Brouwer"
 inspire:
   - "https://inspirehep.net/authors/1653925"
 group: "Van Bibber Group"
@@ -12,7 +12,6 @@ tags:
   - "status/alumni"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Lucas Brouwer
 
 **PhD student** (former) in the [[Van Bibber Group]].
 

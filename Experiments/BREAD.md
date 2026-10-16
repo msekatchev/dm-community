@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "BREAD"
+title: "BREAD"
 long_name: "BREAD: Broadband Reflector Experiment for Axion Detection"
 inspire: "https://inspirehep.net/experiments/1988644"
 url: "http://millerlab.uchicago.edu/research/Axions.html"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# BREAD
 
 *BREAD: Broadband Reflector Experiment for Axion Detection*
 

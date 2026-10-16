@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "European Organization for Nuclear Research"
+title: "European Organization for Nuclear Research"
 inspire: "https://inspirehep.net/institutions/902725"
 city: "Prévessin"
 country: "France"
@@ -9,7 +9,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# European Organization for Nuclear Research
 
 Prévessin, France.
 [INSPIRE](https://inspirehep.net/institutions/902725) · [Website](http://www.cern.ch)

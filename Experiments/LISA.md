@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "LISA"
+title: "LISA"
 long_name: "Laser Interferometer Space Antenna"
 inspire: "https://inspirehep.net/experiments/1110592"
 url: "https://lisa.nasa.gov/"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# LISA
 
 *Laser Interferometer Space Antenna*
 

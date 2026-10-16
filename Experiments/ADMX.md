@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "ADMX"
+title: "ADMX"
 long_name: "Axion Dark Matter eXperiment"
 inspire: "https://inspirehep.net/experiments/1309376"
 url: "http://www.phys.washington.edu/groups/admx/home.html"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# ADMX
 
 *Axion Dark Matter eXperiment*
 

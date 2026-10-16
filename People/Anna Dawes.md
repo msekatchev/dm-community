@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Anna Dawes"
+title: "Anna Dawes"
 inspire:
   - "https://inspirehep.net/authors/1990734"
 group: "Van Bibber Group"
@@ -12,7 +12,6 @@ tags:
   - "status/alumni"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Anna Dawes
 
 **Group member** (former) in the [[Van Bibber Group]].
 **Went on to:** Stanford ([source](https://axions.berkeley.edu)).

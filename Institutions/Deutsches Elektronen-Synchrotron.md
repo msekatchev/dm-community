@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "Deutsches Elektronen-Synchrotron"
+title: "Deutsches Elektronen-Synchrotron"
 inspire: "https://inspirehep.net/institutions/902770"
 city: "Hamburg"
 country: "Germany"
@@ -9,7 +9,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Deutsches Elektronen-Synchrotron
 
 Hamburg, Germany.
 [INSPIRE](https://inspirehep.net/institutions/902770) · [Website](http://www.desy.de/)

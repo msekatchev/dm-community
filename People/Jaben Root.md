@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Jaben Root"
+title: "Jaben Root"
 inspire:
   - "https://inspirehep.net/authors/2014559"
 group: "Van Bibber Group"
@@ -12,7 +12,6 @@ tags:
   - "status/alumni"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Jaben Root
 
 **Group member** (former) in the [[Van Bibber Group]].
 

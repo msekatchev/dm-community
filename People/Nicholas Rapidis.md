@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Nicholas Rapidis"
+title: "Nicholas Rapidis"
 inspire:
   - "https://inspirehep.net/authors/1633518"
 group: "Van Bibber Group"
@@ -12,7 +12,6 @@ tags:
   - "status/alumni"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Nicholas Rapidis
 
 **Undergraduate** (former) in the [[Van Bibber Group]].
 

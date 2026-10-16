@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "BaBar"
+title: "BaBar"
 long_name: "The $B$ Factory Detector"
 inspire: "https://inspirehep.net/experiments/1108553"
 url: "https://en.wikipedia.org/wiki/BaBar_experiment"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# BaBar
 
 *The $B$ Factory Detector*
 

@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "Lawrence Livermore National Laboratory"
+title: "Lawrence Livermore National Laboratory"
 inspire: "https://inspirehep.net/institutions/902965"
 city: "Livermore"
 country: "United States"
@@ -9,7 +9,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Lawrence Livermore National Laboratory
 
 Livermore, United States.
 [INSPIRE](https://inspirehep.net/institutions/902965) · [Website](http://www.llnl.gov/)

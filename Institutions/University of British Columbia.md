@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "University of British Columbia"
+title: "University of British Columbia"
 inspire: "https://inspirehep.net/institutions/1083756"
 city: "Vancouver"
 country: "Canada"
@@ -9,7 +9,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# University of British Columbia
 
 Vancouver, Canada.
 [INSPIRE](https://inspirehep.net/institutions/1083756) · [Website](http://www.ubc.ca/)

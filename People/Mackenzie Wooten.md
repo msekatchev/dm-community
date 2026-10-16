@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Mackenzie Wooten"
+title: "Mackenzie Wooten"
 inspire:
   - "https://inspirehep.net/authors/2058923"
 group: "Van Bibber Group"
@@ -12,7 +12,6 @@ tags:
   - "status/alumni"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Mackenzie Wooten
 
 **Group member** (former) in the [[Van Bibber Group]].
 

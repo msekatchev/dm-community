@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "CUORE"
+title: "CUORE"
 long_name: "Cryogenic Underground Observatory for Rare Events"
 inspire: "https://inspirehep.net/experiments/1108343"
 url: "http://crio.mib.infn.it/wigmi/pages/cuore.php"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# CUORE
 
 *Cryogenic Underground Observatory for Rare Events*
 

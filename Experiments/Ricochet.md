@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "Ricochet"
+title: "Ricochet"
 long_name: "Ricochet: Applying Micro-X and SuperCDMS know-how to a new problem"
 inspire: "https://inspirehep.net/experiments/2665689"
 url: "https://figueroa.physics.northwestern.edu/projects/ricochet.html"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Ricochet
 
 *Ricochet: Applying Micro-X and SuperCDMS know-how to a new problem*
 

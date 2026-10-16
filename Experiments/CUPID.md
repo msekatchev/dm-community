@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "CUPID"
+title: "CUPID"
 long_name: "CUPID: CUORE Upgrade with Particle IDentification"
 inspire: "https://inspirehep.net/experiments/1634682"
 url: "https://www.lngs.infn.it/en/cupid"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# CUPID
 
 *CUPID: CUORE Upgrade with Particle IDentification*
 

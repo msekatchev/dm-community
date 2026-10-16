@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Christian Hagmann"
+title: "Christian Hagmann"
 inspire:
   - "https://inspirehep.net/authors/1007015"
 group: "Van Bibber Group"
@@ -12,7 +12,6 @@ tags:
   - "status/alumni"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Christian Hagmann
 
 **Postdoc (LLNL era)** (former) in the [[Van Bibber Group]].
 

@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "Yale University"
+title: "Yale University"
 inspire: "https://inspirehep.net/institutions/945904"
 city: "New Haven"
 country: "United States"
@@ -9,7 +9,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Yale University
 
 New Haven, United States.
 [INSPIRE](https://inspirehep.net/institutions/945904) · [Website](http://yale.edu)

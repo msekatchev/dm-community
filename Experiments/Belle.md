@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "Belle"
+title: "Belle"
 long_name: "A Study of {CP} Violation in $B$ Meson Decays"
 inspire: "https://inspirehep.net/experiments/1108579"
 url: "http://belle.kek.jp/"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Belle
 
 *A Study of {CP} Violation in $B$ Meson Decays*
 

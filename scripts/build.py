@@ -308,7 +308,7 @@ def main():
             written["Experiments"].add(write_note("Experiments", name, experiment_md(info)))
     for g in groups.values():
         written["Groups"].add(write_note("Groups", g["name"], group_md(g, data, by_key, insts)))
-    write_note(".", "Home", home_md(groups, written))
+    write_note(".", "index", home_md(groups, written))
 
     for folder, names in written.items():
         stale = [f for f in (ROOT / folder).glob("*.md") if f.stem not in names]
@@ -351,13 +351,13 @@ def person_md(d, data, by_key, groups, students):
     p = d["p"]
     g = groups.get(p.get("group"))
     name_of = lambda k: link(by_key[k]["name"]) if k in by_key else k
-    out = [frontmatter(type="person", name=p["name"],
+    out = [frontmatter(type="person", title=p["name"],
                        inspire=[f"{INSPIRE}/authors/{r['id']}" for r in p["inspire"]],
                        group=g["name"] if g else None, group_role=p.get("group_role"),
                        status=p.get("status"),
                        tags=["person", *(["group/" + p["group"]] if p.get("group") else []),
                              *([f"status/{p['status']}"] if p.get("status") else [])]),
-           GEN_START, f"# {p['name']}", ""]
+           GEN_START, ""]
     if g:
         when = "current" if p.get("status") == "current" else "former"
         out.append(f"**{p.get('group_role', 'Member')}** ({when}) in the {link(g['name'])}.")
@@ -435,9 +435,9 @@ def person_md(d, data, by_key, groups, students):
 
 
 def institution_md(info):
-    out = [frontmatter(type="institution", name=info["name"], inspire=f"{INSPIRE}/institutions/{info['id']}",
+    out = [frontmatter(type="institution", title=info["name"], inspire=f"{INSPIRE}/institutions/{info['id']}",
                        city=info["city"], country=info["country"], url=info["url"], tags=["institution"]),
-           GEN_START, f"# {info['name']}", ""]
+           GEN_START, ""]
     loc = ", ".join(x for x in (info["city"], info["country"]) if x)
     if loc:
         out.append(f"{loc}.")
@@ -450,10 +450,10 @@ def institution_md(info):
 
 
 def experiment_md(info):
-    out = [frontmatter(type="experiment", name=info["name"], long_name=info["long_name"],
+    out = [frontmatter(type="experiment", title=info["name"], long_name=info["long_name"],
                        inspire=f"{INSPIRE}/experiments/{info['id']}" if info["id"] else None,
                        url=info["url"], tags=["experiment"]),
-           GEN_START, f"# {info['name']}", ""]
+           GEN_START, ""]
     if info["long_name"] and info["long_name"] != info["name"]:
         out += [f"*{info['long_name']}*", ""]
     if info["description"]:
@@ -475,8 +475,8 @@ def experiment_md(info):
 
 
 def group_md(g, data, by_key, insts):
-    out = [frontmatter(type="group", name=g["name"], url=g["url"], tags=["group"]),
-           GEN_START, f"# {g['name']}", "", f"*{g['long_name']}*", "", g["description"], "",
+    out = [frontmatter(type="group", title=g["name"], url=g["url"], tags=["group"]),
+           GEN_START, "", f"*{g['long_name']}*", "", g["description"], "",
            f"[Group website]({g['url']}) · Based at {link(insts.resolve(g['institution']))}", ""]
     members = [d["p"] for d in data.values() if d["p"].get("group") == g["key"]]
     roster = g.get("roster_only", [])
@@ -498,7 +498,7 @@ def group_md(g, data, by_key, insts):
 
 
 def home_md(groups, written):
-    out = [frontmatter(type="index", tags=["index"]), GEN_START, "# Dark Matter Community Map", "",
+    out = [frontmatter(type="index", title="Dark Matter Community Map", tags=["index"]), GEN_START, "",
            "A map of people, institutions and experiments in dark matter research, built from "
            "[INSPIRE-HEP](https://inspirehep.net) data and a hand-curated seed list. "
            "Start from a group, or open the graph view.", "", "## Groups"]

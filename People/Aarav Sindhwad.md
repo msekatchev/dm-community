@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Aarav Sindhwad"
+title: "Aarav Sindhwad"
 inspire:
   - "https://inspirehep.net/authors/2815929"
 group: "Van Bibber Group"
@@ -12,7 +12,6 @@ tags:
   - "status/alumni"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Aarav Sindhwad
 
 **Group member** (former) in the [[Van Bibber Group]].
 **Went on to:** Yale ([source](https://axions.berkeley.edu)).

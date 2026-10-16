@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "Stanford University"
+title: "Stanford University"
 inspire: "https://inspirehep.net/institutions/911820"
 city: "Stanford"
 country: "United States"
@@ -9,7 +9,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Stanford University
 
 Stanford, United States.
 [INSPIRE](https://inspirehep.net/institutions/911820) · [Website](http://www.stanford.edu)

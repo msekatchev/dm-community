@@ -1,10 +1,10 @@
 ---
 type: "index"
+title: "Dark Matter Community Map"
 tags:
   - "index"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Dark Matter Community Map
 
 A map of people, institutions and experiments in dark matter research, built from [INSPIRE-HEP](https://inspirehep.net) data and a hand-curated seed list. Start from a group, or open the graph view.
 

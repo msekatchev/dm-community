@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "SLAC-E-140"
+title: "SLAC-E-140"
 long_name: "MEASUREMENT OF THE X, Q**2, AND NUCLEAR DEPENDENCE OF R = (SIGMA/L)/(SIGMA/T) AND F2"
 inspire: "https://inspirehep.net/experiments/1109180"
 url: "http://www.slac.stanford.edu/exp/e140/home.html"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# SLAC-E-140
 
 *MEASUREMENT OF THE X, Q**2, AND NUCLEAR DEPENDENCE OF R = (SIGMA/L)/(SIGMA/T) AND F2*
 

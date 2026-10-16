@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "Texas A&M University"
+title: "Texas A&M University"
 inspire: "https://inspirehep.net/institutions/1269381"
 city: "College Station"
 country: "United States"
@@ -9,7 +9,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Texas A&M University
 
 College Station, United States.
 [INSPIRE](https://inspirehep.net/institutions/1269381) · [Website](http://www.tamu.edu/)

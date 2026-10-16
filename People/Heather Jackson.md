@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Heather Jackson"
+title: "Heather Jackson"
 inspire:
   - "https://inspirehep.net/authors/2854054"
   - "https://inspirehep.net/authors/1004651"
@@ -13,7 +13,6 @@ tags:
   - "status/alumni"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Heather Jackson
 
 **PhD student** (former) in the [[Van Bibber Group]].
 **Went on to:** Industry ([source](https://axions.berkeley.edu)).

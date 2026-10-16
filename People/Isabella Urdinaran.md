@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Isabella Urdinaran"
+title: "Isabella Urdinaran"
 inspire:
   - "https://inspirehep.net/authors/2014561"
 group: "Van Bibber Group"
@@ -12,7 +12,6 @@ tags:
   - "status/alumni"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Isabella Urdinaran
 
 **Group member** (former) in the [[Van Bibber Group]].
 

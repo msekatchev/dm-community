@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "SLAC National Accelerator Laboratory"
+title: "SLAC National Accelerator Laboratory"
 inspire: "https://inspirehep.net/institutions/903206"
 city: "Menlo Park"
 country: "United States"
@@ -9,7 +9,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# SLAC National Accelerator Laboratory
 
 Menlo Park, United States.
 [INSPIRE](https://inspirehep.net/institutions/903206) · [Website](http://www.slac.stanford.edu/)

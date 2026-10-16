@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "SLAC-NE-04"
+title: "SLAC-NE-04"
 long_name: "ELECTRON SCATTERING FROM DEUTERIUM AT LARGE MOMENTUM TRANSFER AT 180 DEGREES"
 inspire: "https://inspirehep.net/experiments/1109161"
 url: "http://www.slac.stanford.edu/exp/ne4/home.html"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# SLAC-NE-04
 
 *ELECTRON SCATTERING FROM DEUTERIUM AT LARGE MOMENTUM TRANSFER AT 180 DEGREES*
 

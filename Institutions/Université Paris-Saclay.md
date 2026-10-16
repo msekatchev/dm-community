@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "Université Paris-Saclay"
+title: "Université Paris-Saclay"
 inspire: "https://inspirehep.net/institutions/1404231"
 city: "Saint-Aubin"
 country: "France"
@@ -9,7 +9,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Université Paris-Saclay
 
 Saint-Aubin, France.
 [INSPIRE](https://inspirehep.net/institutions/1404231) · [Website](https://www.universite-paris-saclay.fr)

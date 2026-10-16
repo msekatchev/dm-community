@@ -1,12 +1,11 @@
 ---
 type: "group"
-name: "Van Bibber Group"
+title: "Van Bibber Group"
 url: "https://axions.berkeley.edu"
 tags:
   - "group"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Van Bibber Group
 
 *Berkeley Axion Works (van Bibber group)*
 

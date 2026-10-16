@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Alexander Leder"
+title: "Alexander Leder"
 inspire:
   - "https://inspirehep.net/authors/1292432"
 group: "Van Bibber Group"
@@ -12,7 +12,6 @@ tags:
   - "status/alumni"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Alexander Leder
 
 **Postdoc** (former) in the [[Van Bibber Group]].
 **Went on to:** Staff scientist, Los Alamos National Laboratory (LEGEND) ([source](https://axions.berkeley.edu)).

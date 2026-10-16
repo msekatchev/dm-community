@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "CERN-HL-LHC"
+title: "CERN-HL-LHC"
 long_name: "High Luminosity LHC"
 inspire: "https://inspirehep.net/experiments/1613594"
 url: "http://hilumilhc.web.cern.ch/"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# CERN-HL-LHC
 
 *High Luminosity LHC*
 

@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Maria Simanovskaia"
+title: "Maria Simanovskaia"
 inspire:
   - "https://inspirehep.net/authors/2014560"
 group: "Van Bibber Group"
@@ -12,7 +12,6 @@ tags:
   - "status/alumni"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Maria Simanovskaia
 
 **PhD student** (former) in the [[Van Bibber Group]].
 **Went on to:** Stanford ([source](https://axions.berkeley.edu)).

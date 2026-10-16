@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Karl van Bibber"
+title: "Karl van Bibber"
 inspire:
   - "https://inspirehep.net/authors/1016409"
 group: "Van Bibber Group"
@@ -12,7 +12,6 @@ tags:
   - "status/current"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Karl van Bibber
 
 **PI** (current) in the [[Van Bibber Group]].
 

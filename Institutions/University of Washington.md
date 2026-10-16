@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "University of Washington"
+title: "University of Washington"
 inspire: "https://inspirehep.net/institutions/945165"
 city: "Seattle"
 country: "United States"
@@ -9,7 +9,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# University of Washington
 
 Seattle, United States.
 [INSPIRE](https://inspirehep.net/institutions/945165) · [Website](http://www.washington.edu/)

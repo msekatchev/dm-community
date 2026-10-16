@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "SuperCDMS"
+title: "SuperCDMS"
 long_name: "Super Cryogenic Dark Matter Search at Soudan Mine"
 inspire: "https://inspirehep.net/experiments/1298909"
 url: "http://cdms.berkeley.edu/"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# SuperCDMS
 
 *Super Cryogenic Dark Matter Search at Soudan Mine*
 

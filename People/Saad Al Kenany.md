@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Saad Al Kenany"
+title: "Saad Al Kenany"
 inspire:
   - "https://inspirehep.net/authors/1906034"
   - "https://inspirehep.net/authors/2058924"
@@ -14,7 +14,6 @@ tags:
   - "status/alumni"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Saad Al Kenany
 
 **PhD student** (former) in the [[Van Bibber Group]].
 

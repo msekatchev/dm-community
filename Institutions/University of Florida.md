@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "University of Florida"
+title: "University of Florida"
 inspire: "https://inspirehep.net/institutions/1225439"
 city: "Gainesville"
 country: "United States"
@@ -9,7 +9,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# University of Florida
 
 Gainesville, United States.
 [INSPIRE](https://inspirehep.net/institutions/1225439) · [Website](http://www.ufl.edu/)

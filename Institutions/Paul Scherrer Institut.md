@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "Paul Scherrer Institut"
+title: "Paul Scherrer Institut"
 inspire: "https://inspirehep.net/institutions/905405"
 city: "Villigen"
 country: "Switzerland"
@@ -9,7 +9,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Paul Scherrer Institut
 
 Villigen, Switzerland.
 [INSPIRE](https://inspirehep.net/institutions/905405) · [Website](http://www.psi.ch/)

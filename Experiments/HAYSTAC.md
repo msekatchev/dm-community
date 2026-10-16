@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "HAYSTAC"
+title: "HAYSTAC"
 long_name: "Haloscope At Yale Sensitive To Axion Cold (Dark Matter)"
 inspire: "https://inspirehep.net/experiments/1600738"
 url: "http://lamoreauxgroup.yale.edu/"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# HAYSTAC
 
 *Haloscope At Yale Sensitive To Axion Cold (Dark Matter)*
 

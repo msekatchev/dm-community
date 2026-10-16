@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "Fermi National Accelerator Laboratory"
+title: "Fermi National Accelerator Laboratory"
 inspire: "https://inspirehep.net/institutions/902796"
 city: "Batavia"
 country: "United States"
@@ -9,7 +9,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Fermi National Accelerator Laboratory
 
 Batavia, United States.
 [INSPIRE](https://inspirehep.net/institutions/902796) · [Website](http://www.fnal.gov/)

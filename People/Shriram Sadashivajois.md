@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Shriram Sadashivajois"
+title: "Shriram Sadashivajois"
 inspire:
   - "https://inspirehep.net/authors/1776877"
 group: "Van Bibber Group"
@@ -12,7 +12,6 @@ tags:
   - "status/current"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Shriram Sadashivajois
 
 **Postdoc** (current) in the [[Van Bibber Group]].
 

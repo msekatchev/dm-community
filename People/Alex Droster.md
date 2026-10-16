@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Alex Droster"
+title: "Alex Droster"
 inspire:
   - "https://inspirehep.net/authors/2056868"
   - "https://inspirehep.net/authors/2567606"
@@ -13,7 +13,6 @@ tags:
   - "status/alumni"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Alex Droster
 
 **PhD student** (former) in the [[Van Bibber Group]].
 **Went on to:** KIPAC Fellow, SLAC / Stanford ([source](https://axions.berkeley.edu)).

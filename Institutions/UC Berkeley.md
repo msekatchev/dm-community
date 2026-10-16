@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "UC Berkeley"
+title: "UC Berkeley"
 inspire: "https://inspirehep.net/institutions/1189913"
 city: "Berkeley"
 country: "United States"
@@ -9,7 +9,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# UC Berkeley
 
 Berkeley, United States.
 [INSPIRE](https://inspirehep.net/institutions/1189913) · [Website](http://berkeley.edu/)

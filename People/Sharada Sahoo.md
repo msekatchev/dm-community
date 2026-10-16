@@ -1,6 +1,6 @@
 ---
 type: "person"
-name: "Sharada Sahoo"
+title: "Sharada Sahoo"
 inspire:
   - "https://inspirehep.net/authors/3148376"
   - "https://inspirehep.net/authors/2461096"
@@ -13,7 +13,6 @@ tags:
   - "status/current"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Sharada Sahoo
 
 **Postdoc** (current) in the [[Van Bibber Group]].
 

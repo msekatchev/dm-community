@@ -1,6 +1,6 @@
 ---
 type: "institution"
-name: "Johannes Gutenberg-Universität Mainz"
+title: "Johannes Gutenberg-Universität Mainz"
 inspire: "https://inspirehep.net/institutions/911853"
 city: "Mainz"
 country: "Germany"
@@ -9,7 +9,6 @@ tags:
   - "institution"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# Johannes Gutenberg-Universität Mainz
 
 Mainz, Germany.
 [INSPIRE](https://inspirehep.net/institutions/911853) · [Website](http://www.uni-mainz.de/)

@@ -1,13 +1,12 @@
 ---
 type: "experiment"
-name: "SLAC-E-140X"
+title: "SLAC-E-140X"
 long_name: "MEASUREMENT OF X, Q**2, AND HYDROGEN-DEUTERIUM DEPENDENCE OF R = (SIGMA/L)/(SIGMA/T)"
 inspire: "https://inspirehep.net/experiments/1108883"
 tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# SLAC-E-140X
 
 *MEASUREMENT OF X, Q**2, AND HYDROGEN-DEUTERIUM DEPENDENCE OF R = (SIGMA/L)/(SIGMA/T)*
 

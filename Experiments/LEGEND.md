@@ -1,6 +1,6 @@
 ---
 type: "experiment"
-name: "LEGEND"
+title: "LEGEND"
 long_name: "LEGEND: The Large Enriched Germanium Experiment for Neutrinoless Double Beta Decay"
 inspire: "https://inspirehep.net/experiments/1628041"
 url: "http://legend-exp.org/"
@@ -8,7 +8,6 @@ tags:
   - "experiment"
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
-# LEGEND
 
 *LEGEND: The Large Enriched Germanium Experiment for Neutrinoless Double Beta Decay*
 
