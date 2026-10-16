@@ -1,22 +1,51 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "-path:site -path:data -path:scripts",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:People",
+      "color": {
+        "a": 1,
+        "rgb": 6120185
+      }
+    },
+    {
+      "query": "path:Places",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
+      }
+    },
+    {
+      "query": "path:Projects",
+      "color": {
+        "a": 1,
+        "rgb": 15609647
+      }
+    },
+    {
+      "query": "path:Groups",
+      "color": {
+        "a": 1,
+        "rgb": 5394766
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": false,
+  "nodeSizeMultiplier": 1.15532633463542,
+  "lineSizeMultiplier": 2.50533854166667,
+  "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.6210016736106463,
+  "scale": 0.5,
   "close": true
 }

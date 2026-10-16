@@ -31,6 +31,11 @@ RANKS = {
 }
 GENERIC_INSTITUTIONS = {"University of California", "Unlisted", ""}
 SKIP_INSTITUTIONS = {"Unlisted", "Unlisted Address"}
+THIS_YEAR = date.today().year
+ACTIVE_WINDOW = 3  # a person or project with no paper in this many years counts as inactive
+ROLE_MAP = {"PI": "PI", "Postdoc": "Postdoc", "Postdoc (LLNL era)": "Postdoc",
+            "Graduate student": "PhD student", "PhD student": "PhD student",
+            "Undergraduate": "Undergrad", "Group member": "Other member"}
 ROLE_ORDER = ["PI", "Postdoc", "Graduate student", "PhD student", "Postdoc (LLNL era)",
               "Undergraduate", "Group member"]
 
@@ -141,6 +146,9 @@ def main():
                 "description": (rec.get("description") or manual.get("description") or "").replace("\xa0", " "),
                 "url": next((u["value"] for u in rec.get("urls", [])), manual.get("url", "")),
                 "classes": rec.get("inspire_classification", []),
+                "started": (rec.get("date_started") or rec.get("date_approved") or "")[:4],
+                "completed": (rec.get("date_completed") or "")[:4],
+                "years": [],
                 "people": {},
             }
         return experiments[name]
@@ -205,6 +213,7 @@ def main():
         # affiliations as they appear on the person's papers
         affil = defaultdict(list)
         exp_counts, coauth = Counter(), Counter()
+        exp_years = defaultdict(list)
         theses = []
         for paper in papers:
             y = paper_year(paper)
@@ -226,6 +235,8 @@ def main():
                 if c.get("value") and not ignored(c["value"]):
                     names.add(exp_from_name(c["value"])["name"])
             exp_counts.update(names)
+            for n in names:
+                exp_years[n].append(y)
             for a in paper.get("authors", []):
                 k = id_owner.get(ref_id(a))
                 if k and k != p["key"]:
@@ -253,9 +264,11 @@ def main():
             advisors.setdefault(k, "PhD")
         advisors.pop(p["key"], None)
 
+        years = [y for y in map(paper_year, papers) if y]
         data[p["key"]] = dict(p=p, authors=authors, papers=papers, positions=positions,
-                              affil=affil, exp_counts=exp_counts, members=members,
-                              coauth=coauth, theses=theses, advisors=advisors)
+                              affil=affil, exp_counts=exp_counts, exp_years=exp_years, members=members,
+                              coauth=coauth, theses=theses, advisors=advisors,
+                              first=min(years, default=None), last=max(years, default=None))
 
     # theses supervised by people in the graph, matched to students by INSPIRE id or surname
     def match_student(author):
@@ -295,6 +308,7 @@ def main():
                 f"on {len(years)} paper{'s' * (len(years) != 1)} ({span(min(ys), max(ys)) if ys else 'n.d.'})")
         for e in set(d["exp_counts"]) | d["members"]:
             experiments[e]["people"][name] = (d["exp_counts"].get(e, 0), e in d["members"])
+            experiments[e]["years"] += [y for y in d["exp_years"].get(e, []) if y]
 
     # -------- write notes
     written = defaultdict(set)
@@ -302,13 +316,14 @@ def main():
         written["People"].add(write_note("People", d["p"]["name"], person_md(d, data, by_key, groups, students)))
     for name, info in insts.notes.items():
         if info["people"]:
-            written["Institutions"].add(write_note("Institutions", name, institution_md(info)))
+            written["Places"].add(write_note("Places", name, institution_md(info)))
     for name, info in experiments.items():
         if info["people"]:
-            written["Experiments"].add(write_note("Experiments", name, experiment_md(info)))
+            written["Projects"].add(write_note("Projects", name, experiment_md(info)))
     for g in groups.values():
         written["Groups"].add(write_note("Groups", g["name"], group_md(g, data, by_key, insts)))
     write_note(".", "index", home_md(groups, written))
+    export_graph(data, by_key, groups, insts, experiments, students)
 
     for folder, names in written.items():
         stale = [f for f in (ROOT / folder).glob("*.md") if f.stem not in names]
@@ -435,8 +450,8 @@ def person_md(d, data, by_key, groups, students):
 
 
 def institution_md(info):
-    out = [frontmatter(type="institution", title=info["name"], inspire=f"{INSPIRE}/institutions/{info['id']}",
-                       city=info["city"], country=info["country"], url=info["url"], tags=["institution"]),
+    out = [frontmatter(type="place", title=info["name"], inspire=f"{INSPIRE}/institutions/{info['id']}",
+                       city=info["city"], country=info["country"], url=info["url"], tags=["place"]),
            GEN_START, ""]
     loc = ", ".join(x for x in (info["city"], info["country"]) if x)
     if loc:
@@ -450,9 +465,9 @@ def institution_md(info):
 
 
 def experiment_md(info):
-    out = [frontmatter(type="experiment", title=info["name"], long_name=info["long_name"],
+    out = [frontmatter(type="project", title=info["name"], long_name=info["long_name"],
                        inspire=f"{INSPIRE}/experiments/{info['id']}" if info["id"] else None,
-                       url=info["url"], tags=["experiment"]),
+                       url=info["url"], tags=["project"]),
            GEN_START, ""]
     if info["long_name"] and info["long_name"] != info["name"]:
         out += [f"*{info['long_name']}*", ""]
@@ -499,16 +514,103 @@ def group_md(g, data, by_key, insts):
 
 def home_md(groups, written):
     out = [frontmatter(type="index", title="Dark Matter Community Map", tags=["index"]), GEN_START, "",
-           "A map of people, institutions and experiments in dark matter research, built from "
-           "[INSPIRE-HEP](https://inspirehep.net) data and a hand-curated seed list. "
-           "Start from a group, or open the graph view.", "", "## Groups"]
+           '<iframe class="explorer-frame" src="static/explorer/index.html" title="Community graph explorer" loading="lazy"></iframe>',
+           "",
+           '<p class="explorer-links">People, places and projects in dark matter research, from '
+           '<a href="https://inspirehep.net">INSPIRE-HEP</a> and a hand-curated seed list · '
+           '<a href="static/explorer/index.html" target="_blank">Open the graph full screen ↗</a></p>',
+           "", "## Groups"]
     out += [f"- {link(g['name'])}" for g in groups.values()]
-    out += ["", f"**{len(written['People'])}** people · **{len(written['Institutions'])}** institutions · "
-            f"**{len(written['Experiments'])}** experiments", "",
-            "## Experiments"]
-    out += [f"- {link(n)}" for n in sorted(written["Experiments"], key=str.lower)]
+    out += ["", f"**{len(written['People'])}** people · **{len(written['Places'])}** places · "
+            f"**{len(written['Projects'])}** projects", "",
+            "## Projects"]
+    out += [f"- {link(n)}" for n in sorted(written["Projects"], key=str.lower)]
     out.append("")
     return "\n".join(out)
+
+
+# ------------------------------------------------------------------ graph data for the explorer
+
+def export_graph(data, by_key, groups, insts, experiments, students):
+    """Write site/quartz/static/explorer/graph.json: typed nodes with activity years, and typed links."""
+    nodes, links = [], []
+    yr = lambda ys: (min(ys), max(ys)) if ys else (None, None)
+
+    for k, d in data.items():
+        p = d["p"]
+        active = p.get("status") == "current" or (d["last"] or 0) >= THIS_YEAR - ACTIVE_WINDOW
+        nodes.append({
+            "id": f"person:{k}", "type": "person", "label": p["name"], "file": f"People/{safe(p['name'])}.md",
+            "role": ROLE_MAP.get(p.get("group_role"), "Other member") if p.get("group") else None,
+            "status": p.get("status"), "first": d["first"], "last": d["last"],
+            "inField": active and not p.get("left_field", False),
+            "destination": (p.get("destination") or {}).get("text"),
+            "papers": len(d["papers"]),
+            "inspire": f"{INSPIRE}/authors/{p['inspire'][0]['id']}",
+        })
+        for inst, years in d["affil"].items():
+            a, b = yr([y for y in years if y])
+            links.append({"source": f"person:{k}", "target": f"place:{inst}", "kind": "affiliation",
+                          "first": a, "last": b, "weight": len(years)})
+        for inst, title, a, b, cur in d["positions"]:
+            if inst not in d["affil"]:
+                links.append({"source": f"person:{k}", "target": f"place:{inst}", "kind": "affiliation",
+                              "first": int(a) if a and a[:4].isdigit() else None,
+                              "last": THIS_YEAR if cur else (int(b) if b and b[:4].isdigit() else None), "weight": 1})
+        for e in set(d["exp_counts"]) | d["members"]:
+            a, b = yr([y for y in d["exp_years"].get(e, []) if y])
+            links.append({"source": f"person:{k}", "target": f"project:{e}", "kind": "project",
+                          "first": a, "last": b, "weight": d["exp_counts"].get(e, 0)})
+        if p.get("group"):
+            links.append({"source": f"person:{k}", "target": f"group:{p['group']}", "kind": "member",
+                          "first": d["first"], "last": d["last"], "weight": 1})
+        for s in students.get(k, []):
+            links.append({"source": f"person:{k}", "target": f"person:{s}", "kind": "advisor",
+                          "first": data[s]["first"], "last": data[s]["last"], "weight": 1})
+        for other, n in d["coauth"].items():
+            if k < other:
+                links.append({"source": f"person:{k}", "target": f"person:{other}", "kind": "coauthor",
+                              "first": None, "last": None, "weight": n})
+
+    for name, info in insts.notes.items():
+        if not info["people"]:
+            continue
+        ys = [l[e] for l in links if l["target"] == f"place:{name}" for e in ("first", "last") if l[e]]
+        a, b = yr(ys)
+        nodes.append({"id": f"place:{name}", "type": "place", "label": name, "file": f"Places/{safe(name)}.md",
+                      "first": a, "last": b, "inField": (b or 0) >= THIS_YEAR - ACTIVE_WINDOW,
+                      "location": ", ".join(x for x in (info["city"], info["country"]) if x)})
+
+    for name, info in experiments.items():
+        if not info["people"]:
+            continue
+        a, b = yr(info["years"])
+        done = int(info["completed"]) if info["completed"][:4].isdigit() and info["completed"] != "9999" else None
+        start = int(info["started"]) if info["started"].isdigit() else None
+        manual = info["id"] is None
+        completed = bool(done and done <= THIS_YEAR)
+        recent = manual or info["completed"] == "9999" or (b or 0) >= THIS_YEAR - ACTIVE_WINDOW
+        nodes.append({"id": f"project:{name}", "type": "project", "label": name, "file": f"Projects/{safe(name)}.md",
+                      "longName": info["long_name"],
+                      "first": min([y for y in (start, a) if y], default=None),
+                      "last": THIS_YEAR if manual else (done if completed else b),
+                      "completed": completed, "inField": recent and not completed,
+                      "darkMatter": manual or any("Dark matter" in c for c in info["classes"])})
+
+    for g in groups.values():
+        nodes.append({"id": f"group:{g['key']}", "type": "group", "label": g["name"], "file": f"Groups/{safe(g['name'])}.md",
+                      "first": None, "last": THIS_YEAR, "inField": True, "longName": g["long_name"]})
+        links.append({"source": f"group:{g['key']}", "target": f"place:{insts.resolve(g['institution'])}",
+                      "kind": "based", "first": None, "last": THIS_YEAR, "weight": 1})
+
+    ids = {n["id"] for n in nodes}
+    links = [l for l in links if l["source"] in ids and l["target"] in ids]
+    out = ROOT / "site" / "quartz" / "static" / "explorer" / "graph.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps({"generated": date.today().isoformat(), "thisYear": THIS_YEAR,
+                               "activeWindow": ACTIVE_WINDOW, "nodes": nodes, "links": links},
+                              ensure_ascii=False, indent=1))
+    print(f"graph.json: {len(nodes)} nodes, {len(links)} links")
 
 
 # ------------------------------------------------------------------ file writing

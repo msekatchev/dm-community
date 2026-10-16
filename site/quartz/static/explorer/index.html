@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Community Graph</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="explorer.css">
+</head>
+<body>
+  <div class="viz-root">
+    <aside class="panel" id="panel">
+      <div class="panel-head">
+        <h1>Community graph</h1>
+        <button class="icon-btn only-mobile" id="close-panel" aria-label="Close filters">×</button>
+      </div>
+
+      <div class="search">
+        <input id="search" type="search" placeholder="Search people, places, projects…  ( / )" autocomplete="off" aria-label="Search the graph">
+        <ul id="results" role="listbox" hidden></ul>
+      </div>
+
+      <section>
+        <h2>Show</h2>
+        <div id="types" class="checks"></div>
+      </section>
+
+      <section>
+        <h2>Highlight roles</h2>
+        <p class="hint">Colour people by their role in the group. Everyone else is dimmed.</p>
+        <div id="roles" class="checks"></div>
+      </section>
+
+      <section>
+        <h2>Time and activity</h2>
+        <label class="slider">
+          <span>Active since <b id="since-label">any time</b></span>
+          <input id="since" type="range" step="1">
+        </label>
+        <div class="checks">
+          <label><input type="checkbox" id="only-active"> Only people still active in research</label>
+          <label><input type="checkbox" id="hide-ended"> Hide completed or quiet projects</label>
+          <label><input type="checkbox" id="only-dm"> Only dark matter projects</label>
+        </div>
+        <div class="chips" id="status" role="group" aria-label="Group status">
+          <label><input type="checkbox" value="current" checked> Current members</label>
+          <label><input type="checkbox" value="alumni" checked> Alumni</label>
+        </div>
+      </section>
+
+      <section>
+        <h2>Connections</h2>
+        <div id="kinds" class="checks"></div>
+      </section>
+
+      <div class="panel-foot">
+        <span id="count"></span>
+        <span class="btns">
+          <button id="fit">Fit view</button>
+          <button id="reset">Reset</button>
+        </span>
+      </div>
+    </aside>
+
+    <main class="stage">
+      <button class="icon-btn open-panel only-mobile" id="open-panel">Filters</button>
+      <div id="graph" aria-label="Interactive network graph"></div>
+      <div id="details" class="details" hidden></div>
+      <p id="status-msg" class="status-msg">Loading graph…</p>
+    </main>
+  </div>
+  <script src="vendor/force-graph.min.js"></script>
+  <script src="explorer.js"></script>
+</body>
+</html>

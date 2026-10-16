@@ -1,3 +1,40 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
 
-// put your custom CSS here!
+// Homepage: the graph explorer takes the space of the centre column and right sidebar.
+body[data-slug="index"] {
+  #quartz-body {
+    @media all and ($desktop) {
+      grid-template-columns: #{$sidePanelWidth} auto;
+      grid-template-areas:
+        "grid-sidebar-left grid-header"
+        "grid-sidebar-left grid-center"
+        "grid-sidebar-left grid-footer";
+    }
+    & .sidebar.right {
+      display: none;
+    }
+  }
+  .content-meta,
+  .tags {
+    display: none;
+  }
+  .page-header h1.article-title {
+    margin-bottom: 0.25rem;
+  }
+}
+
+.explorer-frame {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: calc(100vh - 11rem);
+  min-height: 520px;
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  background: var(--light);
+}
+.explorer-links {
+  font-size: 0.85rem;
+  color: var(--gray);
+}

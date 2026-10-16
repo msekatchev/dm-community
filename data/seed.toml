@@ -14,6 +14,7 @@
 # group / group_role: membership in a research group defined under [[group]].
 # destination: where they went after the group, with a source.
 # positions: manual career entries that override INSPIRE (use when INSPIRE is stale).
+# left_field: true for people known to have left research (shown as "left the field" in the explorer).
 
 # Collaboration names on papers that are working groups or reviews, not experiments.
 ignore_collaborations = ["Working Group", "Study Group", "Design Group", "Particle Data Group",
@@ -195,6 +196,7 @@ group_role = "PhD student"
 status = "alumni"
 supervisor_override = ["karl-van-bibber"]
 destination = { text = "Industry", source = "https://axions.berkeley.edu" }
+left_field = true
 
 # ---------------------------------------------------------------- postdoc alumni
 
@@ -319,6 +321,7 @@ group = "vanbibber"
 group_role = "Group member"
 status = "alumni"
 destination = { text = "Start-up", source = "https://axions.berkeley.edu" }
+left_field = true
 
 # Experiment / collaboration names that should be merged into one note.
 [experiment_aliases]

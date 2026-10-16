@@ -6,14 +6,16 @@ tags:
 ---
 <!-- generated:start (edits above GEN_END are overwritten by scripts/build.py) -->
 
-A map of people, institutions and experiments in dark matter research, built from [INSPIRE-HEP](https://inspirehep.net) data and a hand-curated seed list. Start from a group, or open the graph view.
+<iframe class="explorer-frame" src="static/explorer/index.html" title="Community graph explorer" loading="lazy"></iframe>
+
+<p class="explorer-links">People, places and projects in dark matter research, from <a href="https://inspirehep.net">INSPIRE-HEP</a> and a hand-curated seed list · <a href="static/explorer/index.html" target="_blank">Open the graph full screen ↗</a></p>
 
 ## Groups
 - [[Van Bibber Group]]
 
-**28** people · **34** institutions · **40** experiments
+**28** people · **34** places · **40** projects
 
-## Experiments
+## Projects
 - [[ADMX]]
 - [[ALPHA]]
 - [[BaBar]]

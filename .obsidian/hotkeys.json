@@ -1,0 +1,28 @@
+{
+  "obsidian-git:push": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
+  "omnisearch:show-modal-infile": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
+  "editor:open-search": []
+}

@@ -1,1 +1,11 @@
-{}
+{
+  "interfaceFontFamily": "Source Code Pro,Consolas",
+  "textFontFamily": "Palatino,Consolas,Courier",
+  "theme": "moonstone",
+  "accentColor": "#f41515",
+  "nativeMenus": false,
+  "baseFontSizeAction": true,
+  "monospaceFontFamily": "Consolas",
+  "baseFontSize": 17,
+  "translucency": false
+}

@@ -1,1 +1,10 @@
-{}
+{
+  "promptDelete": false,
+  "showLineNumber": false,
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "site/",
+    "data/",
+    "scripts/"
+  ]
+}
